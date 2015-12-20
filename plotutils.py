@@ -2,8 +2,8 @@ import math
 
 def arrowprops(dx, dy, **kwargs):
     m = math.sqrt(dx**2 + dy**2)
-    l = 1/6 * m
-    w = 4/5 * l
+    l = 1/8 * m
+    w = 2/3 * l
     return { 
         'head_length': kwargs.get('head_length', l), 
         'head_width': kwargs.get('head_width', w), 
