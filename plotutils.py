@@ -12,6 +12,11 @@ def arrowprops(dx, dy, **kwargs):
         'fc': kwargs.get('fc', 'b'),
         'ec': kwargs.get('ec', 'b')
     }
+    
+def plot_rect(ax, p, fmt='b'):
+    x, y = p
+    ax.plot([0, x], [y, y], fmt) # horizontal line
+    ax.plot([x, x], [0, y], fmt) # vertical line
 
 def setup_axes(ax, **kwargs):
     ticklength = kwargs.get('ticklength', 15)
