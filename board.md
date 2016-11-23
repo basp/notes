@@ -118,7 +118,7 @@ Het zou mooi zijn om `IsValid` een `property` te maken maar dat gaan we niet doe
 Het zou al veel beter zijn om dit te schrijven:
 ```
 interface IValidatble 
-    IsValid(): Tuple<bool,IList<ValidationError>>;
+    IsValid(): Tuple<bool,IEnumerable<ValidationError>>;
 }
 ```
 
