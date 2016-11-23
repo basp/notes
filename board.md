@@ -115,6 +115,13 @@ interface IValidatable {
 
 Het zou mooi zijn om `IsValid` een `property` te maken maar dat gaan we niet doen. De kans is vrij groot dat `IsValid` een behoorlijke hoeveelheid werk moet verzetten. Potenteel zou deze methode zelfs naar een service moeten gaan om zaken te controleren. Als je in `services` denkt dan voel je waarschijnlijk al aankomen waar het probleem zit.
 
+Het zou al veel beter zijn om dit te schrijven:
+```
+interface IValidatble 
+    IsValid(): Tuple<bool,IList<string>>;
+}
+```
+
 Een `interface` is per definitie een service. Het is een beschrijjving van een service en wij (als ontwikkelaars) hebben de flexibiliteit om tie kiezen welke *service provider* we gebruiken (de implementatie).
 
 Terzijde, dit is waarom je vaak hoort:
