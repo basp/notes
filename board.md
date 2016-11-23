@@ -35,8 +35,12 @@ Een scrum team is toch een klant team? Of niet? Echter, gezien de traditionele m
 Door bovengenoemde factoren is het vaak niet erg winstgevend om een full time team te handhaven voor 1 klant. Dus hebben teams te maken met meerdere klanten. Dit hoeft geen probleem te zijn. Echter denk ik dat de manier waarop wij (en veel andere bedrijven) het proberen te handhaven beter kan.
 
 # Beter scrummen?
-## Disclaimer
+## Disclaimers
 Ik weet niet veel (en heb daar ook niets mee te maken) hoe overeenkomsten op dit moment gesloten worden. Alle bedrijven waar ik gewerkt heb draaiden voor en na mij nog steeds goed zover ik kan bepalen dus ik heb niet de illusie dat ik ook maar enigzins kaas gegeten heb van de beste manier om software contracten af te sluiten. Mijn perspectief hier is voornamelijk gericht vanuit het klant- en ontwikkelaarperspectief. Ik ben voornemens om het perspectief vanuit het softwarehuis (de leverancier) ook nog een keer te belichten zodra ik wat zekerder ben om hierover te oordelen.  
+
+Daarnaast claim ik ook geen officiele scrum expert te zijn. Ik heb de materie behoorlijk uitbundig bestudeerd gedurende mijn gehele loopbaan vanuit professionele interesse en omdat ik er bij inmiddels ook al 10 jaar mee te maken heb als ontwikkelaar met ambities wellicht ook eens de rol van scrum master op zich te nemen. 
+
+Ik heb (nog geen) officieel onderzoek gedaan en sommige van de cijfers die ik noem zijn enigzins gebaseerd op mijn potentieel bedriegelijke geheugen. De precieze cijfers (met name wanneer ik het heb over inzet/benodigde resources) zijn sterk afhankelijk van project tot project en team tot team en de omstandigheden waarin ze dienen te opereren. Echter kan ik het toch niet laten om af en toe een ietwat brede borstel te gebruiken om wat *ballpark* inschattingen te geven.
 
 ## Voor de klant
 Wat veel mensen niet weten is dat dat scrum juist voor de klant ideaal zou moeten zijn. Het is de (software) leverancier, wij dus, die het risico draagt. 
@@ -46,22 +50,109 @@ Laten we zeggen dat iemand 50k heeft voor een X aantal wensen. Wat X precies is 
 1. Betaal ons 50k, over 5 maanden is het (hopelijk) af.
 2. Betaal ons elke maand 10k, over maanden is het (hopelijk) af en elke maand tonen wij je de voortgang, heb je een potentieel minimaal maar werkend product en kun je afhaken indien je niet tevreden bent.*
 
-Echter optie twee behoeft wel een hele dikke notitie. Indien de klant voor deze optie kiest word hij of zij mede verantwoordelijk voor het ontwikkelproces. Dit is en blijft een lastige kwestie die op verschillende manieren of een combinatie daarvan opgelost word:
+Echter optie twee behoeft wel een hele dikke notitie. Indien de klant voor deze optie kiest word hij of zij mede verantwoordelijk voor het ontwikkelproces. Dit is en blijft een lastige kwestie die op verschillende manieren of een combinatie daarvan opgelost (of omzeilt) word:
 
 1. Het team reist af naar de klant, krijgt daar wat werkplekken en voltooid het project on-site (voor de klant vaak ideaal maar niet geliefd bij leveranciers)
 2. Omgekeerd, de klant plaats een (of soms meerdere) personen bij de leverancier waar zij een werkplekken krijgen (ideaal voor leverancier maar niet voor klant)
-3. De surrogaat, een derde persoon is product owner (vaak gezien maar hinderlijk voor het proces)
+3. De externe partij, een derde persoon is product owner (deze optie kan goed werken indien de surrogaat beschikt over kennis en mandaat).
+4. De combi, iemand met een bestaande rol neemt daarnaast ook de rol van product owner op zich (vaak geen bevordering voor een soepel verloop van het scrum proces).
 
-De eerste twee zijn vaak zo moeilijk te realiseren dat de derde optie veelal de norm is. Het is op het eerste gezicht niet eens een onlogische optie en kan heel goed werken indien de complexiteit van een project zeer laag is of veelal aankomt op herhaling.
+Uit bovenstaande blijkt al dat het de product owner rol is die toch vaak voor een spanningsveld zorgt binnen een scrum project. Het is echter ook belangrijk om te vermelden dat dit een enorm lastige rol puur omdat de potentiele werkdruk vaak pas tijdens het verloop van een sprint duidelijk wordt. Het is ook niet noodzakelijk dat deze rol 40 uur per week vervuld wordt. 
 
-Het probleem is dat, net zoals met de scrum master rol, de rol van product owner enorme pieken en dalen kent in werkdruk. Soms heb je hem of haar dagen niet nodig en andere dagen moet je helaas die persoon meerdere malen in het uur lastig vallen. 
+Veel teams hebben ongeveerd 2/3 dagen (potentiele) fulltime access tot een product owner nodig voor een comfortabel verloop van het scrum proces. 
 
-Van bovengenoemde opties is 3 sowieso absoluut de slechtste als je puur kijkt wat voor een spoedig verloop van het ontwikkelproces nuttig is. Optie 1 en 2 zijn beide ok maar er zijn argumenten waarom optie 1 beter is als optie 2. Ten eerste is de product owner een rol die door 1 persoon (met mandaat indien nodig) vervuld zou moeten worden. En daarnaast is het puur objectief gezien logischer als 1 persoon en niet een heel ontwikkelteam extern werkt gedurende een project. 
+## Team naar klant of omgekeert (1 & 2)
+De eerste opties twee zijn vaak lastig te realiseren voor veel bedrijven. Beide opties werken vaak echter wel erg goed. Als de complexiteit hoog ("lastig in te schatten" dient in alle gevallen als **superhoog** te tellen bij aanvang van een project of *sprint zero*). Als je te maken hebt met hoge complexiteit of een onzekerheid dan is het een goed idee om op zijn minst 2 dagen in de week een afgevaardigde van de kant naar het team of het team naar de klant te sturen.
 
-Het zou leveranciers wellicht baten om een deel van kosten die de klant hiervoor moet dragen (wellicht 50%/50%) uit goodwill voor het slagen van het scrum project op zich te nemen.
+## De externe partij (3)
+De derde optie komt regelmatig voor en werkt over het algemeen ook erg goed. Vaak is het de klant die een externe partij voor de duur van een project inhuurt om als product owner te fungeren.
 
-# Hidden pixel op corporate 
-Dit kan volgens mij echt niet. Niet deze link, niet het excuus. Helemaal niet in productie en absoluut niet op **elke** pagina op onze corporate site. Dit is een site waar ook onze prospects en klanten naar toe gaan om uit te vinden we we zijn. 
+## De combi (4)
+
+## Product owner
+Het grote probleem is dat, net zoals met de scrum master rol, de rol van product owner enorme pieken en dalen kent in werkdruk. Soms heb je hem of haar dagen niet nodig en andere dagen moet je helaas die persoon meerdere malen in het uur lastig vallen. 
+
+## Conclusie
+Van bovengenoemde opties is 4 sowieso absoluut de slechtste als je puur kijkt wat voor een spoedig verloop van het ontwikkelproces nuttig is. Optie 1 en 2 zijn beide goed maar er zijn argumenten waarom optie 1 beter is als optie 2. Ten eerste is de product owner een rol die door 1 persoon (met mandaat indien nodig) vervuld zou moeten worden. En daarnaast is het puur objectief gezien logischer als 1 persoon en niet een heel ontwikkelteam extern werkt gedurende een project. 
+
+# ORM
+Object-relation-mapping. ORM. Het domein van ORM, de voor en tegens, de overhead, het gemak, de zogenaamde *leaky abstractions*. 
+
+Een *leaky abstraction* ontstaat over het algemeen als een *library* pretendeerd eenvoudige toegang te verlenen tot een onderlliggend complexer systeem. Ergens lekt elke abstractie wel iets. Het bijna niet te vermijden zonder een hele grote hoeveelheid aan *power* (mogelijkheden, the kracht en mogelijkheden om je gedachten en denkwijze om te zetten in code) op te offeren. 
+
+Het belangrijkste punt is echter: ORM bied enorm veel voordelen. Het is ideaal voor de *CRUD* (create-read-update-delete) schermen waar we toch vaak mee te maken krijgen en is zeker een belangrijk hulpmiddel in ons arsenaal. Echter, het mag geen cult worden (ik was ooit deel van die cult, totdat ik een paar keer op mijn bek ging). ORM is goed en bruikbaar in een grote hoeveelheid scenarios maar het is belangrijjk om tevens te beseffen wanneer ORM niet geschikit is.
+
+Laten we er vanuit gaan dat ORM fantastisch is en we gebruiken het overal. Zijn er situaties waar we wellicht kunnen overwegen om *geen* ORM te gebruiken? Off wat voor voordelen halen we er uit en wat zijn de nadelen. Weliicht zijn er meer licht-gewicht alternatieven waarmee we nog steeds comfortabel onze software kunnen ontwikkelen zonder gekoppeld te zijn aan de (helaas) overhead tie ORM frameworks ons geven.
+
+Ik moet toegeven, ik ben een groot voorstander van ORM waar mogelijk. Maar als ORM *the only way* is dan moet ik ook erkennen dan wordt het hard tijd voor wat bijsturing. Laten we er niet verder omheen draaien, did doet mij net zoveel pijjn alls jullie maar het moet benoemd worden anders komen we nooit verder.
+
+De voordellen van ORM:
+* Het maakt **potentieel** *CRUD* appilcaties aanzienlijk eenvoudiger om te ontwikkelen. 
+
+Potentieel.
+
+En het heeft potentie. Vergis je niet. Indien in de juiste omstandigheden toegepast dan is ORM een zeer krachtig middel.
+
+Als je applicatie bestaat uit 80% *CRUD* (dat wil dus zeggen een overzicht met regels, potenteel filterbaar en sorteerbaar, misschien paginatie en bijbheroende detailschermpjes gekoppeld met *business logic* (zie rant hieronder) dan is het wellicht geen slecht idee om zoveel mogelijk een ORM te gebruiken. 
+
+Echter, schrijf je een stuk code what in een scheduler komt te draaien en potentieel op zijn minst meer als 1 aanvraag per minuut kan verwachten dan wil je niet dat jouw "werk" (in code) in minuut in beslag neemt. Het zou niet zo'n probleem zijn  als dit 1 minuut in *jouw* code zit want in dat geval hebben we er potenteel nog controle over. 
+
+Maar als je gaat *profilen* en je komt erachter dat (in een crue voorbeel natuurlijk) die 1 minuut verspeeld wordt door een component in het systeem waar je geen (of niet direct) controle over hebt (zoals een ORM of externe serice, what een database eigenlijk ook is) dan kun je eindeloos je ORM proberen te *tweaken* door hier en daar een kopje om te zetten maar dat gaat een structureel probleem op de lange termijn niet helpen. 
+
+Nogmaals, ik heb op het moment van schrijven nog niet diepe research kunnen doen maar ik ervaar als *newbie* well dat sommige applicaties voor mijn gevoel trager zijn als verwacht in de rol van simpele gebruiker. In de rol van programmeur krijg ik af en toe het idee dat mijjn browser echt moeite heeft met het weergeven van bepaalde schermen. 
+
+Ik kan op dit moment nog niet goed behoordelen of dit probleem bij de database, de ORM of de inefficiente JavaScript zit. Of het feit dat sommige overgangen gedaan worden met behoorlijk heftige popups and loading indicators. Er is iets wat me stoort tijdens het gebruik van de applicatie en het heeft vooral te maken met de aggressive en vaak onduidelijke foutmeldingen die soms wel een grote hoeveelheid aan text bevatten maar weinig informatie.
+
+## PROGRAMMERS
+Het zal je wellicht bekend voorkomen, je krijgt een stuk *business logic* and er kunnen van allerlei dingen fout gaan. Het is voor zelfs doorgewinterde ontwikellaars verlijdelijk om de volgende methode te schrijjven (eerst wel effe de interface uitbreiden natuurlijk, of beter: een `IValidatable` interface implmeenteren). Wat mag het ook, leten we `IValidate` doen, dat is een good voorbeeld. Hier is de niet zo heel goeie versie:
+```
+interface IValidatable {
+    IsValid(): bool;
+}
+```
+
+Het zou mooi zijn om `IsValid` een `property` te maken maar dat gaan we niet doen. De kans is vrij groot dat `IsValid` een behoorlijke hoeveelheid werk moet verzetten. Potenteel zou deze methode zelfs naar een service moeten gaan om zaken te controleren. Als je in `services` denkt dan voel je waarschijnlijk al aankomen waar het probleem zit.
+
+Een `interface` is per definitie een service. Het is een beschrijjving van een service en wij (als ontwikkelaars) hebben de flexibiliteit om tie kiezen welke *service provider* we gebruiken (de implementatie).
+
+Terzijde, dit is waarom je vaak hoort:
+
+> Program to interfaces not classes
+
+Interfaces (op wat voor manier dan ook) geven jou en je collegae en potentieelll iedereen in die toekomet een punt waarmee ze kunnen koppelen en wat ze kunnen *tweakien*. 
+
+Het belangrijkste is dat een interface een abstract contract is, het beschrijft de regels over een verwacht gedrag. Het is een specificatie. Omdat het een specificatie is, is het tevens documentatie. Het schept *verwachtingen* en *verplichtingen* en het is aan zowel degene die de interface implementeerd als aan de gebruiker van het stuk code dat de interface implementeerd om aan deze verwachtingen te voldoen. Het is een van de meest eerlijke constructies (en ook een van de meest bruikbare) die we hebben.
+
+# De `interface` 
+# OOP?
+Zelfs 15 jaar nadat er al gebreken bleken in de manier waarop mensen `OOP` (object-georienteerd programmeren/*object oriented programming*) blijken er nog steeds grote misconcepties te zijn over *hoe je object georienteerd pgorammeert*.
+
+Laten we eerlijk zijn - de meeste mensen hebben totaal geen benul waar ze het over hebben in het geval van OOP. Na 15 jaar geprobeerd te hebben om er iets van te maken kan ik alleen maar wijzen naar **Alan Kay** die de uitvinder van OOP is. En helaas, volgens hem doen we het allemaal fout. 
+
+Helaas is Alan Kay ook een ietwat zure man die mooi kan vertellen maar nogal cynisch is. Ik ben iets positiever en hoop mensen terug naar de basis te brengen en OOP daadwerkelijk in een realistch en bruikaar perspectief te plaatsen. Zelfs als zou Alan Kay zeggen dat we noobs zijn laten het cynisme vergeten en de focus leggen daar waar we daadwerkelijk en aangetoond winst kunnen boeken.
+
+## Het grootste probleem met OOP
+Niemand snapt precies what OOP is behalve Alan Kay. En zijn visie is zo grandioos on economisch onhaalbaar dat hij er zelf verzuurd van is geraakt.
+
+Zacht gezegt, niet de beste figuur om een idee te promoten.
+
+## Het andere grote probleem met OOP
+In de software wereld is het niet al te moeilijk om in te spellen op een concept wat weinig mensen begrijpen. Veel van wat gebeurt is enigzins magisch voor best veel mensen (heel ander verhaal). Je hebt tegenwoording daarom een hoop bedrijven die inspelen op het onbenul en de onzekerheid en bijvoorbeeld zaken als certificatie aanbien en dergelijke. Deze bedrijven spelen in op algmene onwetendeid en de gedachte dat iedereen met een professioneel logo waarschijjnlijk wel te vertrouwen is. 
+
+Helaas, zoals ik al eerder aangaf - niemand weet precies wat OOP is behalve Alan Kay. En hij is zo pissed off omdat we in the 80's niet naar hem geluisterd hebben dat hij het op dit moment niet eens meer wil uitleggen.
+
+Het andere probleem is eigenlijk dat "bedrijven" het concept OOP gekaapt hebben en gemaakt hebben tot iets wat it niet is. Hetzellfde is gebeurt met scrum, tdd, xp, dsdm, etc.
+
+# "Hidden" pixel op corporate 
+## BELANGRIJK 
+Dit stuk is verplichte kost voor alle ontwikkelaars! Alle andere teamleden worden uitgenodigd om het te lezen en mocht je interesse of meer info hebben dan ben ik natuurlijk beschikbaar. 
+
+Het gaat niet alleen om het verhaal over de pixel en alhoewel dat aanleiding was voor deze sectie gebruik ik de mogelijk tevens om een *key statement* te maken over hoe het zoveel malen beter had gekund. Daarnaast is het inzicht wat ik (hopelijk) probeer over te brengen toepasbaar op bijna elk probleem wat je tegen zult komen (inversion of control is belangrijk niet alleen als techniek mar ook als katalysator voor allerlei andere mogelijke verbeteringen die we kunnen doen). 
+
+Gelukkig merk ik dat de techniek al behoorlijk ingeburgerd is maar desalnietemin is dit een prachtige gelegenheid om in een *realistisch* (?) scenario relatief eenvoudig te demonstreren hoe IoC ook op plaatsen waar je het niet zou verwachten een krachtige techniek blijkt te zijn.
+
+# Ok...
+Nu over de bewuste *hidden pixel* (spoiler: het is geen *pixel* en was ook niet *hidden*). Dit kan volgens mij echt niet. Niet deze link, niet het excuus. Helemaal niet in productie en absoluut niet op **elke** pagina op onze corporate site. Dit is een site waar ook onze prospects en klanten naar toe gaan om uit te vinden we we zijn. 
 
 Zelfs al zou die (in mijn ogen lelijke in irritante) pixel niet te zien zijn en was de *hit area* onzichtbaar, dan nog is er het risco dat een potentiele *mis swipe* of *mis click* actie de gebruiker plots op [ishetalweekend.nl](http://ishetalweekend.nl) doet belanden zonder dat hij of zij beseft wat er net gebeurde. Denk je eens in dat je een potentiele klant bent en je krijgt zo een "geintje" voorschoteld.
 
@@ -115,9 +206,8 @@ Er is me verteld dat dit een bij-effect van het feit dat het betreffende
 `site-credits` veld verplicht ingevuld moest worden. Hierop heb ik een paar dingen te zeggen. Ten eerste is [ishetallweekend.nl](http://ishetalweekend.nl) gewoon een slechte keuze voor productie. Als het echt on-overkomelijk is om iets in te vullen gebruik dan gewoon een link terug naar de top van dezefde pagina of nog beter, gewoon `#`. And ten tweede, een beetje software ontwikelaar is in staat om de gebruikte template zodanig aan te passen dat deze an zijn of haar wensen voldoet. En niet dat we terug moeten vallen op een beetje trieste *hacks* zoals het invullen van een punt (`.`) want dat ziet toch bijna niemand tot het invullen van een studentenurl want, wederom, dat ziet toch niemand. Ik zeg: smoesjes.
 
 # Plan
-Mocht het bovenstaande negatief overkomen dan kan ik alleen maar zeggen: zo is het absoluut niet bedoeld. Ondanks dat ik helaas ook negatieve punten heb besproken heb ik tevens getracht om tegelijkertijd opbouwende kritiek te geven alsmede suggesties over hoe het anders zou kunnen. 
+Mocht het bovenstaande negatief overkomen dan kan ik alleen maar zeggen: zo is het absoluut niet bedoeld. Ondanks dat ik helaas ook negatieve punten heb besproken, heb ik tevens getracht om tegelijkertijd opbouwende kritiek te geven alsmede suggesties over hoe het anders zou kunnen. 
 
 Dit hele stuk is ook niet bedoeld als een soort van *roast* maar meer als een observatie van iemand die dezelfde problemen en manieren om daar mee om te gaan al eerder tegen gekomen is. Er is waarschijnlijk geen magische oplossing, geen gouden set van regels die je kunt volgen waardoor alles goed komt. Elk project is uniek. Ander zouden het geen projecten maar *lopende-band-werk* zijn. 
 
 Dus is de vraag, wat kunnen we doen. Hopelijk zijn op zijn minst een aantal van onderstaande punten relevant genoeg om te overwegen voor implementatie.
-
