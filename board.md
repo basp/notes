@@ -95,7 +95,9 @@ En het heeft potentie. Vergis je niet. Indien in de juiste omstandigheden toegep
 
 Als je applicatie bestaat uit 80% *CRUD* (dat wil dus zeggen een overzicht met regels, potenteel filterbaar en sorteerbaar, misschien paginatie en bijbheroende detailschermpjes gekoppeld met *business logic* (zie rant hieronder) dan is het wellicht geen slecht idee om zoveel mogelijk een ORM te gebruiken. 
 
-Echter, schrijf je een stuk code what in een scheduler komt te draaien en potentieel op zijn minst meer als 1 aanvraag per minuut kan verwachten dan wil je niet dat jouw "werk" (in code) in minuut in beslag neemt. Het zou niet zo'n probleem zijn  als dit 1 minuut in *jouw* code zit want in dat geval hebben we er potenteel nog controle over. 
+Echter, schrijf je een stuk code what in een scheduler komt te draaien en potentieel op zijn minst meer als 1 aanvraag per minuut kan verwachten dan wil je niet dat jouw "werk" (in code) in minuut in beslag neemt. Het zou niet zo'n probleem zijn  als dit 1 minuut in *jouw* code zit want in dat geval hebben we er potenteel nog controle over. Afhankelijkj van je stuk code kun je wellicht op top level wat tijd winnen door zaken uit te voeren terwijl je anders toch maar aan het wachten bent (`async`).
+
+Ik heb wel een kanttekening bij het bovenstaande. Het is een zeer nobel streven om jouw code zo te schrijven zodat deze eenvoudig parralleliseerbaar is. Dat betekend dus zoveel mogelijk vermijjden van *muteerbare staat*.  
 
 Maar als je gaat *profilen* en je komt erachter dat (in een crue voorbeel natuurlijk) die 1 minuut verspeeld wordt door een component in het systeem waar je geen (of niet direct) controle over hebt (zoals een ORM of externe serice, what een database eigenlijk ook is) dan kun je eindeloos je ORM proberen te *tweaken* door hier en daar een kopje om te zetten maar dat gaat een structureel probleem op de lange termijn niet helpen. 
 
@@ -122,6 +124,23 @@ Terzijde, dit is waarom je vaak hoort:
 Interfaces (op wat voor manier dan ook) geven jou en je collegae en potentieelll iedereen in die toekomet een punt waarmee ze kunnen koppelen en wat ze kunnen *tweakien*. 
 
 Het belangrijkste is dat een interface een abstract contract is, het beschrijft de regels over een verwacht gedrag. Het is een specificatie. Omdat het een specificatie is, is het tevens documentatie. Het schept *verwachtingen* en *verplichtingen* en het is aan zowel degene die de interface implementeerd als aan de gebruiker van het stuk code dat de interface implementeerd om aan deze verwachtingen te voldoen. Het is een van de meest eerlijke constructies (en ook een van de meest bruikbare) die we hebben.
+
+# Muteerbare staat (oftewel, functineel programmeren)
+## Assignment
+Een zichzelf respecterende functionele programmeertaal staat het volgende niet toe:
+
+```
+int x  = 3;
+x = 5; // won't even compile!
+```
+
+If you are not familair with function programming you might be thinking `wtf` and I will excuse you for your foul lange!
+
+There's no weird stuff going on here. Assignment is final in functional programming [En ik realiseer me net dat ik de helft in Engels aan het schrijven ben en eigenlijk is dat is een stuk makkelijker dus ik ga er mee door].
+
+Think about that. Assignment is final. If I say `C = 3` then `C = 3` always and everytime. And if I dare to change it the compiler (or interpreter) will bark at me.
+
+
 
 # De `interface` 
 # OOP?
