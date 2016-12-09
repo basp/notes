@@ -39,7 +39,7 @@ and can be useful for almost any class with type parameters):
         ...
     }
 
-We'll can define a non-generic class as well 
+We'll define a non-generic class as well: 
 
     class Tuple
     {
