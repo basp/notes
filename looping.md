@@ -25,12 +25,13 @@ Our task is to skip the first 3 lines because they apparently
 contain gibberish that we don't need. Yes I know, it already feels
 hacky but due to time constraints you are forced to implement
 this. Now there's all kinds of things horribly wrong with this API
-and it could be so much better for for the sake of writing a note
+and it could be so much better, but for the sake of writing a note
 and not a book let's just say you are to implement this horrible 
 hack.
 
 Would you implement it like this?
 
+    // I'm still being kind in this example (could be worse even)
     static string[] SkipHeader(string[] lines)
     {
         var body = new List<string>();
@@ -41,6 +42,8 @@ Would you implement it like this?
             {
                 body.Add(lines[i]);
             }
+
+            i += 1;
         }
 
         return body.ToArray();
@@ -78,9 +81,8 @@ Look, we're gonna probably use a `List<T>` in there anyway. A
 `List<string>` in this case. If you're gonna solve this by copying
 bytes and involving buffers and such you fail automatically.
 
-Due to the interface (method signature) we need to work with we're gonna
-have to `ToArray()` that list anyway. I would probably write something 
-like this:
+Due to the interface (method signature) we're gonna have to `ToArray()` 
+that list anyway. I would probably write something like this:
 
     static string[] SkipHeader(string[] lines)
     {
@@ -88,14 +90,21 @@ like this:
     }
 
 And if you wanna make the *hack* really neat you can also include a 
-constant named something like `HEADER_LINES` or something like
+constant named something like `Header` or something like
 that so it reads pretty nice:
 
     static string[] SkipHeader(string[] lines)
     {
-        const int HEADER_LINES = 3;
-        return lines.Skip(HEADER_LINES).ToArray();
+        const int Header = 3;
+        return lines.Skip(Header).ToArray();
     }
+
+> You could include such a constant in the `for` example as 
+> well and it wouldn't be *too* bad... I guess. Also the
+> name `Header` is not very accurate but considering how tiny
+> its scope is and how nicely it reads in the context of where
+> its used (and how close that is to where its declared) I'm 
+> inclined to like this one.
 
 And although such a constant might seem like a simple thing, it's 
 the first step to abstract such values out of your core logic. from
