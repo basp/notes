@@ -99,7 +99,7 @@ it and make it less horrible. For now it's not too bad:
             var text = File.ReadAllText(path);
             return Some<string, Exception>(text);
         }
-        catch
+        catch(Exception ex)
         {
             return None<string, Exception>(ex);
         }
