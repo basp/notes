@@ -82,9 +82,9 @@ intend... Somewhat. It's still not great though.
 > and stream and transform throughout your whole process... 
 > Just saying.
 
-Look, we're gonna probably use a `List<T>` in there anyway. A 
-`List<string>` in this case. If you're gonna solve this by copying
-bytes and involving buffers and such you fail automatically.
+We're gonna probably use a `List<T>` in there anyway. A `List<string>` 
+in this case. If you're gonna solve this by copying bytes and involving 
+buffers you're probably doing it wrong.
 
 Due to the interface (method signature) we're gonna have to `ToArray()` 
 that list anyway. I would probably write something like this:
@@ -147,6 +147,8 @@ When you use an `IList` people who see that assume the value is
 already there or at least easily populated from memory. When you use
 an `IEnumerable` you are actually signalling that the result is 
 a *stream of values* where not every value may be available instantly.
+And this is in fact exactly where the `yield` keyword comes into 
+play (but more on that later).
 
 Another thing that I like is the read-only aspect of `IEnumerable` in
 that you can never ever add values to it. Of course you *can* easily 
