@@ -114,7 +114,7 @@ that so it reads pretty nice:
 > Note that `Header` wouldn't really work in the `for` case 
 > though and we would *have* to resort to something like
 > `NumHeaderLines` or something like that. in the `Skip` case
-> we at least have the option of both.
+> we at least have the option.
 
 And although such a constant might seem like a simple thing, it's 
 the first step to abstract such values out of your core logic. from
