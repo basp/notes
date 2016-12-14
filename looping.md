@@ -75,7 +75,12 @@ intend... Somewhat. It's still not great though.
 > to do the same crazy shit. Usually a `while` loop is more
 > approprate in those cases because it interfaces easily with 
 > the `EOF` property on a few of the `StreamReader` classes and
-> that is probably even more wrong. Not sure.
+> that is probably even more wrong. 
+>
+> Look, if you're streaming already using a `StreamReader` class 
+> then it makes a whole  of sense to keep using `IEnumerable<T>` 
+> and stream and transform throughout your whole process... 
+> Just saying.
 
 Look, we're gonna probably use a `List<T>` in there anyway. A 
 `List<string>` in this case. If you're gonna solve this by copying
