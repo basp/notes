@@ -65,7 +65,7 @@ your face. This will help identify errors and mistakes early while they
 still can be fixed easily.
 
 However, you might wanna be a bit more defensive about it. Maybe it's not a 
-bit problem if this particular `ReadFile` fails because you have a default
+big problem if this particular `ReadFile` fails because you have a default
 value anyway. 
 
 Let's use `Option` instead then and see how it *restricts* and *empowers*
@@ -105,13 +105,13 @@ it and make it less horrible. For now it's not too bad:
         }
     }
     
-And yeah I know, the type annotations are horrible but we'll have to live
-with them for now if we wanna be funky.
+And yeah I know, the type annotations are a bit funky but we'll have to live
+with them for now if we wanna be functional at times.
 
 Let's see what happens when we call this method with an invalid path:
 
     var res = ReadFile(@"frotz");
-    Console.WriteLine(res); // Option ???
+    Console.WriteLine(res); // No exception but option ???
 
 How do we get a value out of this thing? Well that's the beauty. You have 
 to consider what you wanna do with it. That value is something important.
