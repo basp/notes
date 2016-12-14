@@ -110,6 +110,11 @@ that so it reads pretty nice:
 > its scope is and how nicely it reads in the context of where
 > its used (and how close that is to where its declared) I'm 
 > inclined to like this one.
+>
+> Note that `Header` wouldn't really work in the `for` case 
+> though and we would *have* to resort to something like
+> `NumHeaderLines` or something like that. in the `Skip` case
+> we at least have the option of both.
 
 And although such a constant might seem like a simple thing, it's 
 the first step to abstract such values out of your core logic. from
