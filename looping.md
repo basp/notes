@@ -1,5 +1,6 @@
 # Looping 101
 > Is there a difference in speed between a `foreach` and a `for` loop?
+
 It depends on the data structure that you're using. 
 
 If you're not dealing with an `Array` then a basic `for` will probably 
