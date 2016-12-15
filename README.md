@@ -3,9 +3,9 @@ This is my collection of notes and ramblings. I have to apologize
 for it's current state as it is very much unorganized at best. In 
 here you'll find a few main things:
 
-* Lot's of Python Notebooks on Math and sometimes Physics related stuff from.
+* Lot's of Python Notebooks on Math and sometimes Physics related stuff (mostly from 2015)
 * A (growing) collection of my old rambling from 2000-2010
-* A quite rapid growing collection of new ramblings (this is my new blog basically).
+* A quite rapid growing collection of new ramblings (this is my new blog basically)
 * And maybe some hidden gems here and there (I'm not gonna spoil everything)
 
 Note that you can view the `.pynb` files straight from the *github* website.
