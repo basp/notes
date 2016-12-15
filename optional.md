@@ -165,3 +165,84 @@ is `None` then it will get us the `"TILT"` value. When combined with
 `HasValue` this is reasonly safe and simple way to get values out of your options in imperative land. 
 
 Note that this should be considered as a bit of a hack as this is not how `Option` values are intended to be used. It is (sadly) though a necessary pattern to know when dealing with the real world.
+
+Note that you usually only have to resort to this kind of hackery when 
+you've left `Option` land. While in option land, things are a lot different.
+
+## Functionally
+If we are already in method that is gonna return an `Option` then things
+are a lot more sweet. That's why once you start to use `Option` you'll quickly
+find it seeping through a lot of your API.
+
+Exception paths are suddenly transformed into normal program flow that can
+be reasoned about much more easily. Also when used properly, you will finally
+tackle those pesky null reference exceptions as well.
+
+Say we have this method that basically brings us into option land:
+
+    Option<string, Exception> Serialize<T>(T value)
+    {
+        try
+        {
+            var json = JsonConvert.Serialize(value);
+            return Some<string, Exception>(json);
+        }
+        catch(Exception ex)
+        {
+            return None<string, Exception>(ex);
+        }
+    }
+
+And we wanted to write a store method that uses it. Then it probably
+would make things a lot easier to make it return an `Option` as well:
+
+    Option<bool, Exception> Store<T>(T value)
+    {
+        ...
+    }
+
+And we'll implement it but now we can actually make use of the fancy
+funky stuff that `Option` provides us with. Let's start with `Map`. In
+this case we need to map an `Option<string, Exception>` to an 
+`Option<bool, Exception>` which is actually quite easy:
+
+    bool StoreJson(string json)
+    {
+        ...
+    }
+
+    Option<bool, Exception> Store<T>(T value)
+    {
+        var maybeJson = this.Serialize(value);
+        return maybeJson.Map(x => StoreJson(x));
+    }
+
+There's a few things to note:
+
+* We only need to map the actual result type `string` to `bool` in this case.
+* The exception type `Exception` is the same for both methods, we could have
+used `MapException` to map that as well though.
+* If the `Option` has a `Some` value then the mapper value (`x => true`) 
+will be available otherwise (in case of an exception) the `Exception` will 
+have precedence.
+* This API is pretty horrible. A `bool` is often just a bad thing to pass
+around.
+
+I'm sure that `StoreJson` can fail as well in a number of interesting ways.
+What if *that too* passed back an option. It can keep the darn `bool` but
+at leat give us some `Exception` as well if things fail:
+
+    Option<bool, StoreJsonException> StoreJson(string json)
+    {
+        // This works, just trust the other team
+    }
+
+Sigh. Instead of just an `Exception` we now have a `StoreJsonException` to
+deal with because someone thought it would be a good idea to implement
+custom exceptions. Because that's how the professionals do it right?
+
+Ah well. Apart from the fact that `StoreJsonException` is probably not 
+implemented correctly and barely serializable (if at all) let's try to
+deal with it anyway. We'll rewrite our `Store<T>(T value)` method:
+
+    TODO: Example
