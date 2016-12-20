@@ -35,6 +35,8 @@ The above may sound harsh but that's the unfortunate truth. Most people even don
 ### About wrapping
 And about wrappers (sometimes mistakingly called facades). I think sometimes they might be a bit overused. I know how tempting it is to wrap every single thing so to make it easier to work with but you sometimes have to realize that things are often so for a reason you might not forsee at the moment you're wrapping it. 
 
+And by wrapping I mean *properly* wrapping by hiding parts of the original API completely as so much to make it more awkward to use the wrapped thing than the original thing (like what happened to poor old `System.Data`).
+
 You can *try* and make it easier but in the end what happens is that possible consumers are harmed because they are limited, not given enough info when things go wrong, not being able to properly debug or a combination or worse.
 
 And when is the last time you completely changed for example the logging library? Is it really completely necessary to have a facade for this? I assume that once you settle on a good logging library you made up your mind for that project. The same with dependency injection or whatever trivial thing you want to wrap.
@@ -52,7 +54,7 @@ Ah ok, yeah. That works out great. It's much easier to figure out where everythi
 Also, if you do insist on having everybody put their thingy in the proper pigeonhole then why not just use directories instead? You *don't* really need separate projects for that.
 
 ### For deployment
-This is the only valid reason, maybe. If can point to a reason why having another project/assembly is valid then it will be because it eases deployment *somehow*. However, that somehow better have a good explanation.
+This is one of the few valid reasons, maybe. If can point to a reason why having another project/assembly is valid then it will be because it eases deployment *somehow*. However, that somehow better have a good explanation.
 
 ### It's a good way to start over
 It's not. It looks like nobody has a clue except just start a new project and hope it goes better this time. And that we can integrate it into the main code base somehow (hardly ever happens fully). So you end up with two solutions/ways of doing things to the same problem. And then a while later somebody thinks, just start over with a new project and surely it will go better. And now we have three. Cool.
