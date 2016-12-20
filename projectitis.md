@@ -9,7 +9,7 @@ And this post is by no means a reflection on my current or previous employers. I
 Really guys, why? I mean, it's not just us right now but it's everywhere. It's like a solution has a dozen projects even before something meaningful has been programmed. And it doesn't just happen in so called *enterprise* software but even in halfway decent open source projects.
 
 ### The project file is horrible, the solution file even worse
-Ok granted, these files are bitches to fix in merges. I can merge most of the code any day but when there's a conflict in the solution or project file I feel a real sense of dread and despair.
+Ok granted, these files are bitches to fix in merges. I can merge most of the code any day but when there's a conflict in the solution or project file I feel a real sense of dread and despair. I have no real solution for this except cursing. Or use different tools. Command line tools with .NET core and Visual Studio Code looks like it might work.
 
 ### Because namespaces
 Wrong. Namespaces and projects map to eachother orthogonally. In other words, a project may span multiple namespaces as well as a namespace can span multiple projects. These two are not so strictly tied to eachother as for example files and types.
