@@ -17,7 +17,7 @@ Wrong. Namespaces and projects map to eachother orthogonally. In other words, a 
 ### Dependencies
 Sometimes you literally have so much projects that the only way to solve dependency problems is to create a new project in order to prevent circular references. Welcome to *dependency hell*. You had `N` problems and now you have `N+1`. Don't you wish all those projects would be in a single convienient assembly right now? Since that is wat the circular dependency problem implies.
 
-Note that if you're ever in this situation then you probably have no other choice than to except that the number of projects will continue to grow while the code is refactored into a more wholesome whole (hopefully). 
+Note that if you're ever in this situation then you probably have no other choice than to accept that the number of projects will continue to grow while the code is refactored into a more wholesome whole (hopefully). 
 
 These operations take a long time and at first things might seem desperate. However, eventually you'll be able to merge newly created projects back together based on their dependencies and hopefully slowly pull stuff back in while the plane keeps flying.
 
