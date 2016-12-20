@@ -21,7 +21,7 @@ Note that if you're ever in this situation then you probably have no other choic
 
 These operations take a long time and at first things might seem desperate. However, eventually you'll be able to merge newly created projects back together based on their dependencies and hopefully slowly pull stuff back in while the plane keeps flying.
 
-Things *wilL* get worse before they get better and you can't pull something that is not a while properly apart either.
+Things *will* get worse before they get better and you can't pull something that is not a while properly apart either.
 
 It might be useful to create a custom `Attribute` or maybe a few so you can more easily mark code for moving/removing while the *road is being cleared*.
 
