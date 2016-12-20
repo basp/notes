@@ -37,13 +37,13 @@ And about wrappers (sometimes mistakingly called facades). I think sometimes the
 
 You can *try* and make it easier but in the end what happens is that possible consumers are harmed because they are limited, not given enough info when things go wrong, not being able to properly debug or a combination or worse.
 
-And when is the last time you completely changed for example the logging library? Is it really completely necessary to have a facade for this? I assume that once you settle on a good logging library you made up your mind for that projject. The same with dependency injection or whatever thing you want to wrap.
+And when is the last time you completely changed for example the logging library? Is it really completely necessary to have a facade for this? I assume that once you settle on a good logging library you made up your mind for that project. The same with dependency injection or whatever trivial thing you want to wrap.
 
-Unless you *really intend* to wrap it into something better and can clearly explain the additional functionality wover the thing that you're wrapping, don't bother to wrap it. Do stuff with it, offer a library or something with useful functions, extension methods if you want, but please for the love of everything that is cute and fluffy please **don't wrap** it in some more useless API that hides even more information about what is actually going on.
+Unless you *really intend* to wrap it into something better and can clearly explain the additional functionality over the thing that you're wrapping, don't bother to wrap it. Do stuff with it, offer a library or something with useful functions, extension methods if you want, but please for the love of everything that is cute and fluffy please **don't wrap** it in some more useless API that hides even more information about what is actually going on.
 
 Never *ever ever ever* hide information from your fellow programmers. Nobody will like your library or framework or whatever for it. In fact, think about it, how much would you like it?
 
-### That's how the pro's do it
+### That's how the pros do it
 It's not. Look at `mscorlib.dll` for example or `EntityFramework.dll` for that matter. Those are actual deploy units. Stuff that actually belongs together should stay together for *as long as possible* untill you have no other choice for *some reason*. You can use only part of an assembly, no need to cut it up into a dozen little pieces prematurely.
 
 ### It's to give guidance to new programmers
