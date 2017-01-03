@@ -22,9 +22,9 @@ And that leads us into a (not so modern) idea that is known as [CQRS](http://mar
 * You can either read and calculate (the `Q` for query)
 * You can either write a result to some store (memory, disk, etc., the `C` for command)
 
-# closing
 **CQRS** implies that these two should be kept seperate as there's often different models for updating data v.s. just reading data and calculating with it. The Martin Fowler article which I linked to above is really anal about CQRS and I don't like to think of it as some kind of dogma. It's just an observation on how systems tend to work in general and of course, there are exceptions.
 
+# closing
 Personally, I find the distinction between *commands* (`procedure`) and *queries* (`function`) in code pretty useful because it often leads to systems that are easy to test and reason about. It's also why I tend to dislike `void` because it means that method/function is had to test. It's not that bad when the body is relatively compact and makes use of a lot of pure'ish functions but when you're dealing with all void helpers as well things are not fun anymore.
 
 Also `void` implies side-effects all over the place and side-effects suck. Use instances (objects) to carry (minimal) state and service references around and don't be scared if you end up with a lot of **private** static functions in your classes.
