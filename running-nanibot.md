@@ -1,7 +1,7 @@
 # running nanibot
 During most of the development, I was just running **nani** locallly whenever I was at one of my computers. This meant that whenever I wanted to shutdown or reboot the bot would start with a clean state. I could usually not be bothered to save her ETS tables nor did I really want to anyway because it's just much easier to work with.
 
-However, now that I spend some effor on making her properly robust (mostly by moving all the potential hazardous functionality out of the core bot process and into event handlers) I wanted to have her running for longer periods of time, like indefinitely if possible. I don't wanna run one of my own computers for *24/7* but then it dawned on me that I could just run it on my Digital Ocean cloud instance instead. I already have that thing and it's mostly idling anyway so surely it can handle an Erlang VM and with a small bot process as well?
+However, now that I spend some effort on making her properly robust (mostly by moving all the potential hazardous functionality out of the core bot process and into event handlers) I wanted to have her running for longer periods of time, like indefinitely if possible. I don't wanna run one of my own computers for *24/7* but then it dawned on me that I could just run it on my Digital Ocean cloud instance instead. I already have that thing and it's mostly idling anyway so surely it can handle an Erlang VM and with a small bot process as well?
 
 # ssh access
 The first hurdle is usually getting proper `ssh` access to your instance. Mine is running Ubuntu and I've done this before. First thing involves getting a decent setup and since I'm on windows and I'm picky about my consoles that means getting a real `ssh` executable working in **cmdr** my host of choice.
@@ -48,6 +48,6 @@ And this will (hopefully) connect us to the Erlang node that is going to run the
 Now we can startup the bot and do any other housekeeping we want. There's one very important thing to keep in mind though.
 
 # logging off
-Once you are done working in a remote shell you should probably never ever use the `q()` command unless you want to actually kill that node. If I was working on the `bot` node and I would issue `q()` it would actually kill that node which defeats the purpose of starting up a detached node in the first place.
+Once you are done working in a remote shell you should probably never ever use the `q()` command unless you want to actually kill that node. If I was working on the `bot` node and I would issue `q()` it would actually kill that node (and all of the bot processes with it) which defeats the purpose of starting up a detached node in the first place.
 
 Instead, once you are done just use the *user switch* command `^G` and then use `q` if you are done. This ensures that the detached (remote) shell keeps running while your working shell (`dev` in my case) will exit and put you back on the operating system prompt.
