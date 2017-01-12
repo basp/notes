@@ -4,7 +4,7 @@ Helaas moet ik jullie spoedig verlaten om bij de Cheetahs mee te gaan helpen. He
 
 Het is geen leugen als ik zeg dat jullie veruit het tofste en best functionerende team zijn waarvan ik ooit deel uit heb mogen maken. Ik lieg ook niet als ik zeg dat ik elke morgen fluitend naar mijn werk ga. Of eigenlijk lieg ik wel een klein beetje: ik kan namelijk helemaal niet fluiten. 
 
-En ondanks dat we nog bij hetzelfde bedrijf werken zal jullie toch missen. Wees dus niet verbaast als ik regelmatig nog even binnen kom vallen!
+En ondanks dat we nog bij hetzelfde bedrijf werken zal ik jullie toch missen. Wees dus niet verbaast als ik regelmatig nog even binnen kom vallen!
 
 @Pascal, de held die ervoor zorgt dat ontwikkelaars aan ontwikkelen toekomen. Je bent veel meer als alleen maar scrum master en die rol doe je fantastisch. Jouw directheid en de manier waarop je problemen *tackled* zullen een behoorlijk gemis zijn. De rust om zaken op de juiste manier te implementeren is onder meer te danken aan de manier waarop jij je daarvoor inzet. Ik hoop dat je af en toe een keer binnenvalt om te vragen hoe het is om niet meer in het #1 team te zitten! ;)
 
