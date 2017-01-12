@@ -6,7 +6,7 @@ Het is geen leugen als ik zeg dat jullie veruit het tofste en best functionerend
 
 En ondanks dat we nog bij hetzelfde bedrijf werken zal jullie toch missen. Wees dus niet verbaast als ik regelmatig nog even binnen kom vallen!
 
-@Pascal, de held die ervoor zorgt dat ontwikkelaars aan ontwikkelen toekomen. Je bent veel meer als alleen maar scrum master en die rol doe je fantastisch. Jouw directheid en de manier waarop je problem *tackled* zullen een behoorlijk gemis zijn. De rust om zaken op de juiste manier is onder meer te danken aan de manier waarop jij je daarvoor inzet. Ik hoop dat je af en toe een keer binnenvalt om te vragen hoe het is om niet meer in het #1 team te zitten! ;)
+@Pascal, de held die ervoor zorgt dat ontwikkelaars aan ontwikkelen toekomen. Je bent veel meer als alleen maar scrum master en die rol doe je fantastisch. Jouw directheid en de manier waarop je problem *tackled* zullen een behoorlijk gemis zijn. De rust om zaken op de juiste manier te implementeren is onder meer te danken aan de manier waarop jij je daarvoor inzet. Ik hoop dat je af en toe een keer binnenvalt om te vragen hoe het is om niet meer in het #1 team te zitten! ;)
 
 @Peter, ik benijdt jouw rol niet. Het is een zware en ondankbare taak. Het is niet makkelijk om te verkeren in dat schemergebied tussen team, klant en management. Ondanks die lastige rol gaf je mij in ieder geval wel het gevoel dat je deel uit maakte van *ons team* en ik had altijd het gevoel dat je openstond voor discussie. Ik waarder dat enorm.
 
