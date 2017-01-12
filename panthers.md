@@ -4,7 +4,7 @@ Helaas moet ik jullie spoedig verlaten om bij de Cheetahs een klein beetje extra
 
 Het is geen leugen als ik zeg dat jullie veruit het tofste en best functionerende team zijn waarvan ik ooit deel uit heb mogen maken. Ik lieg ook niet als ik zeg dat ik elke morgen fluitend naar mijn werk ga. Of eigenlijk lieg ik wel een klein beetje: ik kan namelijk helemaal niet fluiten. En ondanks dat we nog bij hetzelfde bedrijf werken zal jullie toch missen. Wees dus niet verbaast als ik regelmatig nog even binnen kom vallen!
 
-@Pascal, de held die ervoor zorgt dat ontwikkelaars aan ontwikkelen toekomen. Ik weet dat je uiteindelijk meer ambieert maar wat ben jij een fantastisch in de rol van scrum master/analist/manusje van alles. 
+@Pascal, de held die ervoor zorgt dat ontwikkelaars aan ontwikkelen toekomen. Ik weet dat je uiteindelijk meer ambieert maar wat ben jij een fantastisch in de rol van scrum master/analist/manusje van alles. Jouw directheid en de manier waarop je problem *tackled* zullen een behoorlijk gemis zijn. De rust om zaken op de juiste manier is onder meer te danken aan de manier waarop jij je daarvoor inzet. Ik hoop dat je af en toe een keer binnenvalt om te vragen hoe het is om niet meer in het #1 team te zitten! ;)
 
 @Peter, ik benijdt jouw rol niet. Het is een zware en ondankbare taak. Het is niet makkelijk om te verkeren in dat schemergebied tussen team, klant en management. Ondanks die lastige rol gaf je mij in ieder geval wel het gevoel dat je deel uit maakte van *ons team* en ik had altijd het gevoel dat je openstond voor discussie. Ik waarder dat enorm.
 
