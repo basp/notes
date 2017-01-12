@@ -1,6 +1,6 @@
 Lieve Panthers,
 
-Helaas moet ik jullie spoedig verlaten om bij de Cheetahs een klein beetje extra technische drive in het team te gaan brengen. Het is geen geheim dat ik stiekem veel liever bij jullie in het team zou willen blijven maar professioneel kan ik niet anders als de uitdaging accepteren en mijn uiterste best te gaan doen om van dat team.
+Helaas moet ik jullie spoedig verlaten om bij de Cheetahs een klein beetje extra technische drive in het team te gaan brengen. Het is geen geheim dat ik stiekem veel liever bij jullie in het team zou willen blijven maar professioneel kan ik niet anders als de uitdaging accepteren en mijn uiterste best te gaan.
 
 Het is geen leugen als ik zeg dat jullie veruit het tofste en best functionerende team zijn waarvan ik ooit deel uit heb mogen maken. Ik lieg ook niet als ik zeg dat ik elke morgen fluitend naar mijn werk ga. Of eigenlijk lieg ik wel een klein beetje: ik kan namelijk helemaal niet fluiten. En ondanks dat we nog bij hetzelfde bedrijf werken zal jullie toch missen. Wees dus niet verbaast als ik regelmatig nog even binnen kom vallen!
 
