@@ -17,7 +17,7 @@ Wrong. Namespaces and projects map to eachother orthogonally. In other words, a 
 ### Dependencies
 Sometimes you literally have so much projects that the only way to solve dependency problems is to create a new project in order to prevent circular references. Welcome to *dependency hell*. You had `N` problems and now you have `N+1`. Don't you wish all those projects would be in a single convienient assembly right now? Since that is wat the circular dependency problem implies.
 
-Note that if you're ever in this situation then you probably have no other choice than to except that the number of projects will continue to grow while the code is refactored into a more wholesome whole (hopefully). 
+Note that if you're ever in this situation then you probably have no other choice than to accept that the number of projects will continue to grow while the code is refactored into a more wholesome whole (hopefully). 
 
 These operations take a long time and at first things might seem desperate. However, eventually you'll be able to merge newly created projects back together based on their dependencies and hopefully slowly pull stuff back in while the plane keeps flying.
 
@@ -35,15 +35,17 @@ The above may sound harsh but that's the unfortunate truth. Most people even don
 ### About wrapping
 And about wrappers (sometimes mistakingly called facades). I think sometimes they might be a bit overused. I know how tempting it is to wrap every single thing so to make it easier to work with but you sometimes have to realize that things are often so for a reason you might not forsee at the moment you're wrapping it. 
 
+And by wrapping I mean *properly* wrapping by hiding parts of the original API completely as so much to make it more awkward to use the wrapped thing than the original thing (like what happened to poor old `System.Data`).
+
 You can *try* and make it easier but in the end what happens is that possible consumers are harmed because they are limited, not given enough info when things go wrong, not being able to properly debug or a combination or worse.
 
-And when is the last time you completely changed for example the logging library? Is it really completely necessary to have a facade for this? I assume that once you settle on a good logging library you made up your mind for that projject. The same with dependency injection or whatever thing you want to wrap.
+And when is the last time you completely changed for example the logging library? Is it really completely necessary to have a facade for this? I assume that once you settle on a good logging library you made up your mind for that project. The same with dependency injection or whatever trivial thing you want to wrap.
 
-Unless you *really intend* to wrap it into something better and can clearly explain the additional functionality wover the thing that you're wrapping, don't bother to wrap it. Do stuff with it, offer a library or something with useful functions, extension methods if you want, but please for the love of everything that is cute and fluffy please **don't wrap** it in some more useless API that hides even more information about what is actually going on.
+Unless you *really intend* to wrap it into something better and can clearly explain the additional functionality over the thing that you're wrapping, don't bother to wrap it. Do stuff with it, offer a library or something with useful functions, extension methods if you want, but please for the love of everything that is cute and fluffy please **don't wrap** it in some more useless API that hides even more information about what is actually going on.
 
 Never *ever ever ever* hide information from your fellow programmers. Nobody will like your library or framework or whatever for it. In fact, think about it, how much would you like it?
 
-### That's how the pro's do it
+### That's how the pros do it
 It's not. Look at `mscorlib.dll` for example or `EntityFramework.dll` for that matter. Those are actual deploy units. Stuff that actually belongs together should stay together for *as long as possible* untill you have no other choice for *some reason*. You can use only part of an assembly, no need to cut it up into a dozen little pieces prematurely.
 
 ### It's to give guidance to new programmers
@@ -52,7 +54,7 @@ Ah ok, yeah. That works out great. It's much easier to figure out where everythi
 Also, if you do insist on having everybody put their thingy in the proper pigeonhole then why not just use directories instead? You *don't* really need separate projects for that.
 
 ### For deployment
-This is the only valid reason, maybe. If can point to a reason why having another project/assembly is valid then it will be because it eases deployment *somehow*. However, that somehow better have a good explanation.
+This is one of the few valid reasons, maybe. If can point to a reason why having another project/assembly is valid then it will be because it eases deployment *somehow*. However, that somehow better have a good explanation.
 
 ### It's a good way to start over
 It's not. It looks like nobody has a clue except just start a new project and hope it goes better this time. And that we can integrate it into the main code base somehow (hardly ever happens fully). So you end up with two solutions/ways of doing things to the same problem. And then a while later somebody thinks, just start over with a new project and surely it will go better. And now we have three. Cool.
