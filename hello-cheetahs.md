@@ -1,0 +1,5 @@
+* Ik ben niet alleen hier geplaatst omdat ik snel kan typen en toevallig het een en ander van programmeren weet. Ik heb ook passie voor mijn vak en de hoop is dat ik een klein beetje van dat vuur gebruik niet alleen voor het geloof in vakmanschap maar ook zeker voor interesse in het vakgebied waarin we mogen werken.
+
+* Voordat ik besloot om de overstap te maken heb ik voldoende informatie gekregen over het feit dat het niet makkelijk zou zijn. Het is als team ook niet makkelijk als er goeie mensen weggaan of rollen significant verschuiven. Het helpt ook niet dat je weer een noob zoals ik hebt die opnieuw ingewerkt moet worden. 
+
+* Daarnaast het feit dat zoveel verschillende partijen binnen een sprint tevreden moet stellen maakt het zeker niet makkelijk. Echter, ik denk dat we op dit gebied zeker dingen een stuk anders - beter - kunnen gaan doen. Ten eerste wil ik me 100% inzetten voor meer rust voor jullie. Het feit dat we zoveel verschillende zaken hebben zou een probleem moeten zijn van mij, Jack, alle stake-holders, management etc. In ieder geval niet van jullie.
