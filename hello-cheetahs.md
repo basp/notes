@@ -1,6 +1,6 @@
 Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu toch heb en van plan deze zo goed mogelijk uit te voeren bevat onderstaande ook informatie die daarop betrekking heeft.
 
-Toch wil ik benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Als dit enigzins gaat werken dan week ik zeker dat we als team binnen een paar maanden de rol van scrum master gezamelijk kunnen dragen door het scheppen van duidelijkheid binnen en buiten het team.
+Ik wil benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Als dit enigzins gaat werken dan week ik zeker dat we als team binnen een paar maanden de rol van scrum master gezamelijk kunnen dragen door het scheppen van duidelijkheid binnen en buiten het team.
 
 * Ik zit niet alleen in jullie team omdat ik snel kan typen en behoorlijk wat van programmeren en softwareontwikkeling weet. Ik heb ook passie voor mijn vak, de mensen die erbij betrokken zijn en alles er om heen. En dat gaat vrij ver en vrij breed. Mijn hoop is dat ik een klein beetje van dat vuur gebruik om niet alleen het gevoel van vakmanschap, maar zeker ook de interesse in het vakgebied en alles wat er mee te maken heb in te brengen.
 
