@@ -14,4 +14,8 @@ Als ik naar mezelf kijk dan is het erg makkelijk om iedereen van dienst te wille
 
 En dan kan het nog zo slecht gaan in een sprint, zolang je tegenvallers als team oppikt maar tegelijkertijd naar jezelf kijkt, als individu, wat jij kunt doen om ervoor te zorgen dat zulk soort tegenvallers niet of minder vaak optreden in de toekomst, om altijd kritisch te zijn over het werk wat jij en je collega's af leveren. In dat geval, als we dat kunnen, dan weet ik zeker dat we als Cheetahs supertoffe dingen elke sprint beter kunnen gaan doen. 
 
-Dit zal van iedereen een stukje discipline en vakmanschap zal eisen.
+Ik wil benadrukken dat dit van **iedereen** optimisme, daadkracht, discipline en vakmanschap zal eisen. Op zijn minst. We zullen als team maar ook als individu moeten laten zien wat we waard zijn om waardevolle functionaliteit voor de klant af te leveren. Elke twee weken weer. Scrum is heel duidelijk over de verdeling van verantwoordelijkheden en ik ben voornemenens als scrum master ook een dusdanige stricte verdeling te bewerkstelligen. 
+
+Ik het slechtste geval kunnen jullie als ontwikkelteam in rust werken aan de doelen van een sprint. Hopelijk kunnen we in ieder geval een klein deel van de tijd investeren in de *right way* en eventuele *technical debt* die opgebouwd is. In het beste geval krijgen we daar heel veel tijd maar daarvoor moet ik nog wel de kans krijgen om subtiel een beetje *rond te trappen*.
+
+> When we take the position that it is not only the programmer's responsibility to produce a correct program but also to demonstrate its correctness in a convincing manner, then the above remarks have a profound influence on the programmer's activity: the object he has to produce must be usefully structured. &#8212; [Edsger W. Dijkstra](http://www.cs.utexas.edu/users/EWD/ewd02xx/EWD249.PDF)
