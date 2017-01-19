@@ -1,4 +1,4 @@
-Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb.
+Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu toch heb en van plan deze zo goed mogelijk uit te voeren bevat onderstaande ook informatie die daarop betrekking heeft.
 
 * Ik zit niet alleen in jullie team omdat ik snel kan typen en behoorlijk wat van programmeren en softwareontwikkeling weet. Ik heb ook passie voor mijn vak, de mensen die erbij betrokken zijn en alles er om heen. En dat gaat vrij ver en vrij breed. Mijn hoop is dat ik een klein beetje van dat vuur gebruik om niet alleen het gevoel van vakmanschap, maar zeker ook de interesse in het vakgebied en alles wat er mee te maken heb in te brengen.
 
