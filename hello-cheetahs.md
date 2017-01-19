@@ -1,8 +1,10 @@
 Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is.
 
-Ik wil benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Als dit enigzins gaat werken dan week ik zeker dat we als team binnen een paar maanden de rol van scrum master gezamelijk kunnen dragen door het scheppen van duidelijkheid binnen en buiten het team.
+Ik wil benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Mocht dit goed uitpakken dan sluit ik niet uit dat ik dit wil blijven doen mits ik het ook kan blijven combineren met ontwikkelwerk want ik hou er wel van om in de loopgraven te zitten.
 
-* Ik zit niet alleen in jullie team omdat ik snel kan typen en behoorlijk wat van programmeren en softwareontwikkeling weet. Ik heb ook passie voor mijn vak, de mensen die erbij betrokken zijn en alles er om heen. En dat gaat vrij ver en vrij breed. Mijn hoop is dat ik een klein beetje van dat vuur gebruik om niet alleen het gevoel van vakmanschap, maar zeker ook de interesse in het vakgebied en alles wat er mee te maken heb in te brengen.
+* Ik zit in jullie team omdat ik een behoorlijke duidelijke mening heb over hoe softwareontwikkeling behoort te verlopen. Ik weet wat het is om in het ontwikkelteam te zitten, ik weet hoe het is om owner te zijn en ik weet hoe het is om scrum master te zijn. Ik weet wel welke rol ik prefereer maar soms moeten we ons schikken naar de realiteit. 
+
+Ik heb ook passie voor mijn vak, de mensen die erbij betrokken zijn en alles er om heen. En dat gaat vrij ver en vrij breed. Mijn hoop is dat ik een klein beetje van dat vuur gebruik om niet alleen het gevoel van vakmanschap, maar zeker ook de interesse in het vakgebied en alles wat er mee te maken heb in te brengen.
 
 * Voordat ik besloot om de overstap te maken heb ik voldoende informatie gekregen over het feit dat het niet makkelijk zou zijn. Het is als team ook niet makkelijk als er goeie mensen weggaan of rollen significant verschuiven. Het helpt ook niet dat je weer een noob zoals ik hebt die opnieuw ingewerkt moet worden. 
 
