@@ -1,4 +1,4 @@
-Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rool nu heb en en van plan deze zo goed mogelijk uit te voeren bevat onderstaande ook informatie die specifiek gerelateerd daarnaan is.
+Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is.
 
 Ik wil benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Als dit enigzins gaat werken dan week ik zeker dat we als team binnen een paar maanden de rol van scrum master gezamelijk kunnen dragen door het scheppen van duidelijkheid binnen en buiten het team.
 
