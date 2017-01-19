@@ -24,7 +24,7 @@ En ook, maar misschien wel het meest belangrijk: om altijd kritisch te zijn over
 
 Ik wil benadrukken dat dit van **iedereen** optimisme, daadkracht, discipline en vakmanschap zal eisen. Op zijn minst. We zullen als team maar ook als individu moeten laten zien wat we waard zijn om waardevolle functionaliteit voor de klant af te leveren en enige impact binnen de organisatie te bewerkstelligen. Elke twee weken weer. 
 
-Scrum is heel duidelijk over de verdeling van verantwoordelijkheden en ik ben voornemenens als scrum master ook een dusdanige stricte verdeling te bewerkstelligen. In ieder geval voorlopig totdat we echt kunnen gaan nadenken over het afschaffen van een scrum master. 
+Scrum is heel duidelijk over de verdeling van verantwoordelijkheden en ik ben voornemenens als scrum master ook een dusdanige stricte verdeling te bewerkstelligen. In goed overleg met jullie natuurlijk. Er zijn zeker zaken waarvan ik popel om die aan te pakken maar ik ga niet gelijk het hele bestaande proces omgooien. Ik ga er vanuit dat we daar als team wel een *modus operandi* in zullen vinden.
 
 Ik het slechtste geval kunnen jullie als ontwikkelteam in rust werken aan de doelen van een sprint. Hopelijk kunnen we in ieder geval een klein deel van de tijd investeren in de *right way* en eventuele *technical debt* die opgebouwd is. In het beste geval krijgen we daar heel veel tijd maar daarvoor moet ik nog wel de kans krijgen om subtiel een beetje *rond te trappen*.
 
