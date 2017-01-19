@@ -1,8 +1,10 @@
-*Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is.*
+*Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is. Het was oorspronkelijk de niet de bedoeling om zo'n enorm lang verhaal te schrijven.*
 
 Lieve Cheetah's,
 
-Ik wil benadrukken dat ik gedreven ben om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Een echte invulling. Niet een surrogaat. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Mocht dit goed uitpakken dan sluit ik niet uit dat ik dit wil blijven doen mits ik het ook kan blijven combineren met ontwikkelwerk. Ik hou ervan om in de loopgraven te zitten.
+Dit was bedoeld as een relatief kort bericht om even uit te leggen wie ik ben en waar ik voor sta. Gezien de recente ontwikkelingen ben ik her enigzins van het geplande pad afgeweken om uit te leggen hoe ik van plan ben om (in eerste instantie) invulling te geven aan mijn rol als *srum master*. Spoiler: ik wil meer rust en het ontwikkelteam zo veel mogelijk ontzien van ruis.
+
+Mijn doel nu is om daadwerkelijk een goede invulling aan de rol van *scrum master* te gaan geven. Een echte invulling. Niet een surrogaat. Ik beschouw het niet als iets wat ik er *effe een paar maanden bij* ga doen totdat we iemand anders vinden. Mocht dit goed uitpakken dan sluit ik niet uit dat ik dit wil blijven doen mits ik het ook kan blijven combineren met ontwikkelwerk. Ik hou ervan om in de loopgraven te zitten.
 
 Je zult al snel merken dat ik een behoorlijke duidelijke mening heb over hoe softwareontwikkeling hoort te verlopen. En ik ben ook niet bang om deze te ventileren. Naar het team maar zeker ook naar de wereld om het team heen. Ik weet wat het is om in het ontwikkelteam te zitten, ik weet hoe het is om owner te zijn en ik weet hoe het is om scrum master te zijn. Ik weet ook wel welke rol ik prefereer maar soms moeten we ons schikken naar de realiteit. 
 
@@ -24,7 +26,7 @@ En ook, maar misschien wel het meest belangrijk: om altijd kritisch te zijn over
 
 Ik wil benadrukken dat dit van **iedereen** optimisme, daadkracht, discipline en vakmanschap zal eisen. Op zijn minst. We zullen als team maar ook als individu moeten laten zien wat we waard zijn om waardevolle functionaliteit voor de klant af te leveren en enige impact binnen de organisatie te bewerkstelligen. Elke twee weken weer. 
 
-Scrum is heel duidelijk over de verdeling van verantwoordelijkheden en ik ben voornemenens als scrum master ook een dusdanige stricte verdeling te bewerkstelligen. In goed overleg met jullie natuurlijk. Er zijn zeker zaken waarvan ik popel om die aan te pakken maar ik ga niet gelijk het hele bestaande proces omgooien. Ik ga er vanuit dat we daar als team wel een *modus operandi* in zullen vinden.
+Scrum is heel duidelijk over de verdeling van verantwoordelijkheden en ik ben voornemens als scrum master ook een dusdanige stricte verdeling te bewerkstelligen. In goed overleg met jullie natuurlijk. Er zijn zeker zaken waarvan ik popel om die aan te pakken maar ik ga niet gelijk het hele bestaande proces omgooien. Ik ga er vanuit dat we daar als team wel een *modus operandi* in zullen vinden.
 
 Ik het slechtste geval kunnen jullie als ontwikkelteam in rust werken aan de doelen van een sprint. Hopelijk kunnen we in ieder geval een klein deel van de tijd investeren in de *right way* en eventuele *technical debt* die opgebouwd is. In het beste geval krijgen we daar heel veel tijd maar daarvoor moet ik nog wel de kans krijgen om subtiel een beetje *rond te trappen*.
 
