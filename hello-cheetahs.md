@@ -1,4 +1,4 @@
-*Ik schrijf dit als teamlid. Niet omdat ik toevallig vandaag de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is. Het was oorspronkelijk de niet de bedoeling om zo'n enorm lang verhaal te schrijven.*
+*Ik schrijf dit als teamlid. Niet omdat ik toevallig de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is. Het was oorspronkelijk de niet de bedoeling om zo'n enorm lang verhaal te schrijven.*
 
 Hola Cheetahs,
 
