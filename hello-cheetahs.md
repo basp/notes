@@ -1,6 +1,6 @@
 *Ik schrijf dit als teamlid. Niet omdat ik toevallig de scrum master rol op me genomen heb. Echter, omdat ik die rol nu heb en en van plan ben om deze zo goed mogelijk in te vullen, bevat onderstaande ook informatie die daaraan gerelateerd is. Het was oorspronkelijk de niet de bedoeling om zo'n enorm lang verhaal te schrijven.*
 
-Hola Cheetahs,
+Konnichiwa Cheetah-kun,
 
 Dit was bedoeld as een relatief kort bericht om even uit te leggen wie ik ben en waar ik voor sta. Gezien de recente ontwikkelingen ben ik hier enigzins van het geplande pad afgeweken om uit te leggen hoe ik van plan ben om (in eerste instantie) invulling te geven aan mijn rol als *srum master*. Spoiler: ik wil meer rust en het ontwikkelteam zo veel mogelijk ontzien van ruis.
 
