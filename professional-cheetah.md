@@ -2,7 +2,8 @@ Goeiesmorgens Cheeta's,
 
 Tenminste, ik neem aan dat althans de meeste van jullie dit morgenvroeg pas lezen (zoals het hoort).
 
-Persoonlijk was ik niet tevreden over mezelf vandaag:
+Persoonlijk was ik niet tevreden over mezelf vandaag (ik schrijf dit gisteren als je begrijpt wat ik bedoel):
+
 * Te laat met voorbereiden van de demo vandaag dus we kregen nog heel dat Windows 10 setup geneuzel
 * Ik was in de war met A.04 en A.05 en dat hielp ook niet echt om iedereen op de juiste plek te krijgen
 * Het feit dat ik "de grote" spreekkamer niet had en "de kleine" niet meer beschikbaar was
