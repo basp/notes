@@ -17,7 +17,7 @@ Persoonlijk was ik niet tevreden over mezelf vandaag (ik schrijf dit gisteren al
 
 Alles van bovenstaande hoop ik op te pakken door betere facilitering en gevoel voor proces en ritme voor en van het team. En door een betere voorbereiding, meer ervaring in de rol van scrum master, en meer feeling met de werkzaamheden die zich concentreren rondom het ontwikkelteam. 
 
-Het laatste punt is lastiger, ik krijg daardoor de rol van "voorzitter" (iemand die op de tijd let) maar tegelijkertijd als iemand die tijd verbrand door zo nodig zijn mening te moeten laten horen. Het zou makkelijk zijn als ik me (grotendeels) van dat soort discussies kan onthouden maar tegelijkertijd denk ik niet dat de organisatie verwacht dat ik mijn rol als ontwikkelaar zomaar laat liggen (dat zou ik eigenlijk ook niet echt willen of kunnen). 
+Het laatste punt is lastiger, ik heb bij sommige events een rol die lijkt op een voorzitter. Maar daarnaast heb ik ook een verantwoordelijkheid als ontwikkelaar (iemand die op de tijd let) maar tegelijkertijd als iemand die tijd verbrand door zo nodig zijn mening te moeten laten horen. Het zou makkelijk zijn als ik me (grotendeels) van dat soort discussies kan onthouden maar tegelijkertijd denk ik niet dat de organisatie verwacht dat ik mijn rol als ontwikkelaar zomaar laat liggen (dat zou ik eigenlijk ook niet echt willen of kunnen). 
 
 Dit is mijn probleem en hoop hier ook in de komende weken duidelijkheid over te krijgen zodat ik me beter kan schikken naar de verwachtingen van iedereen.
 
