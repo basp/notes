@@ -33,6 +33,8 @@ We moeten proberen om als team een soortgelijke ambitie te delen om wat dan ook 
 
 Excuses voor wederom zo'n lang bericht. Als je tot zover gelezen hebt dan verdien je niet alleen excuses maar ook waardering. Ik zie graag een (net zo lang) essay terug om mij te vertellen hoe alles wat ik hierboven zeg compleet verkeerd is.
 
+Cheeta's rule!
+
 En tot slot, wedermaals, een gedachte van wellicht mijn grootste voorbeeld.
 
 > For me, the first challenge for computing science is to discover how to maintain order in a finite, but very large, discrete universe that is intricately intertwined. And a second, but not less important challenge is how to mould what you have achieved in solving the first problem, into a teachable discipline: it does not suffice to hone your own intellect (that will join you in your grave), you must teach others how to hone theirs. The more you concentrate on these two challenges, the clearer you will see that they are only two sides of the same coin: teaching yourself is discovering what is teachable. &#8212; [Edsger Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
