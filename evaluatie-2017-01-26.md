@@ -2,7 +2,7 @@
 Manne, ik kan behoorlijk kritisch zijn maar ik vindt dat jullie op een fantastische manier deze sprint aangevangen zijn. Hieronder een (onvolledige) opsomming van frictiepunten waarvan ik denk: "nou, daar gaan die kerels toch allemaal goed mee om."
 
 * Jullie zitten opgescheept zitten met een vreemde en onervaren scrum master.
-* Mensen worden nog steeds door mij en andere mensen (meestal van buiten het team) lastig gevallen worden op momenten dat je net in een debug sessie of concentratie zit. Kunnen we hier iets aan doen of is dit een *non-issue*?
+* Mensen worden nog steeds door mij en andere mensen lastig gevallen worden op momenten dat je net in een debug sessie of concentratie zit. Kunnen we hier iets aan doen of is dit een *non-issue*?
 * De valse start omdat we op de eerste dag nog wat planning te gaan hadden.
 * Timeboxen van 45 minuten die uiteindelijk 150 minuten duren. Ik heb getwijfeld of ik daar in moest grijpen (door wellicht de vergadering even te onderbreken en kritisch navraag te doen). Ik heb voor de deur gestaan en het uiteindelijk niet gedaan maar had het waarschijnlijk wel moeten doen. Als jullie hier een mening over hebben dan hoor ik die graag.
 * Het feit dat onze PO er vandaag niet was waardoor de toch niet onbelangrijke rol van product owner wegviel.
