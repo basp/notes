@@ -12,7 +12,7 @@ Ik heb waarschijnlijk een paar inschattingsfouten heb gemaakt waardoor ik sommig
 
 Het is supermooi om te zien hoe zaken op het bord, maar ook met name die zaken die buiten het bord om op ons pad komen, opgepakt worden. De *alleen schuiven tijdens stand-up* regel werkt goed (zolang we niet een groot scherm in de hoek van onze kamer hebben hangen). Ik hou ervan hoe het hele team enorm betrokken was tijdens de standup. We zijn een klein beetje uitgelopen en dat was mijn schuld, want wat mij betreft was jullie deelname top.
 
-Het is ook duidelijk hoe inderdaad de *lelijke knikkers* de sprint in sijpelen ondanks dat we ze niet gepland hebben. Ben je net lekker aan het jongleren met een stuk of 5 of meer *ballen*, komen er ook nog wat *lelijke knikkers* tussendoor die alles verstoren. Hadden we ze beter moeten plannen?m Waarschijnlijk. Of ga ik nu te ver met die hele metafoor?
+Het is ook duidelijk hoe de ongeplande *lelijke knikkers* de sprint in sijpelen. Ben je net lekker aan het jongleren met een stuk of 5 of meer *ballen*, komen er ook nog wat *lelijke knikkers* tussendoor die alles verstoren. Hadden we ze beter moeten plannen? Waarschijnlijk. Of ga ik nu te ver met die hele metafoor?
 
 Wat mij betreft zijn er twee opties: 
 * *schedule buffer* (stelpost, buffer, net hoe je het wilt noemen) waarbij je vooraf extra tijd rekent. Dit kan op verschillende manieren, door buffers te rekenen op je inschattingen of door daardwerkelijk uren op je bord op te nemen als een soort van *timebox* (die indien nodig tijdens de sprint ingevuld kan worden met daadwerkelijke backlog items indien zekerheid toeneemt).
