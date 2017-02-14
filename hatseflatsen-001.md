@@ -52,7 +52,7 @@ Dit zijn maar wat hypothetische voorbeelden maar hopelijk is het idee duidelijk.
 
     var ongeldig = Abonnementen.Where(x => !IsGeldigAbonnement(x)).ToList();
 
-En ja ik besef dat ik me er een klein beetje makkelijk vanaf maak door niet echt met een concreet beter voorstel te doen wat betreft het eerste voorbeeld. Geloof me, dat duur niet lang meer man dan verschijnt het gewooon in de vorm van een checkin en niet in de vorm van een lang stuk wat in *markdown* formaat getypt is! ;P
+En ja ik besef dat ik me er een klein beetje makkelijk vanaf maak door niet echt met een concreet beter voorstel te doen wat betreft het eerste voorbeeld. Geloof me, dat duurt niet lang meer maar dan verschijnt het gewooon in de vorm van een checkin en niet in de vorm van een lang stuk wat in *markdown* formaat getypt is! ;P
 
 En geloof me, ik heb deze niet voor niets `001` genummerd want ik denk dat ik (zeker in code van het verleden en hopelijk minder in code van nu) nog wel meer hatsegeflats tegen zal komen. En dit is ook zeker niet persoonlijk bedoelt - ik reken het **ons** als **team** aan dat we dit soort zaken er doorheen laten *slippen* zonder kritisch op elkaar te zijn. Ik zal mensen aanspreken op hun code maar zou ze daar uiteindelijk nooit op afrekenen als het in ons VCS beland omdat we het als team gewoon toestaan dat deze dingen gebeuren.
 
