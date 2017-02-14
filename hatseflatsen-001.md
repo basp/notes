@@ -19,13 +19,13 @@ Het grootste probleem met dit predicaat is dat er veel en veel aspecten zonder n
 
 En als dit nu een incident was dan had ik dit niet geschreven. Ik besloot om eens verder te kijken naar wat er zowel in dezelfde codebase ingecheckt is afgelopen tijd. Het goeie nieuws is: het is een goudmijn aan voorbeelden om van te leren. Het slechte nieuws is: het is tevens een goudmijn aan WTF's.
 
-En ik zie het heel vaak op predicaten (condities) stuk gaan. Neem deze volgende prachtige `if` aanhef:
+En ik zie het heel vaak op predicaten (condities) stuk gaan. Neem deze volgende prachtige `if` aanhef en let zeker ook op het bijbehorende commentaar:
 
     if ((selectedRapportId == 10 || selectedRapportId == 24 || selectedRapportId == 38 || selectedRapportId == 42) &&//Rapport -> 1, 5, 9 of 20
 
 En ergens moet ik eerlijk toegeven dat ik dit soort dingen ook wel schattig vindt. Ze zijn gelukkig heel eenvoudig op te lossen op diverse manieren. 
 
-In het laatste probleem schuilt het grootste probleem dat sowieso de conditie behoorlijk "wazig" is met all die *magic numbers* en dat het bijbehorende commentaar weinig verduidelijkt zonder dat je de applicatie goed kent. Het zou veel beter geweest zijn om te beschrijven waarom het blijkbaar voor deze specifieke elementen - in wat eigenlijk een homogene lijst van elementen zou moeten zijn (en misschien ooit was) - er nu een hele `if` uitzonderingssituatie ingebouwd is. Daarnaast is de consument van de lijst verbonden met instanties van elementen die in de lijst van mogelijke elementen kunnen optreden.
+In het laatste voorbeeld schuilt het grootste probleem dat sowieso de conditie behoorlijk "wazig" is met all die *magic numbers* en dat het bijbehorende commentaar weinig verduidelijkt zonder dat je de applicatie goed kent. Het zou veel beter geweest zijn om te beschrijven waarom het blijkbaar voor deze specifieke elementen - in wat eigenlijk een homogene lijst van elementen zou moeten zijn (en misschien ooit was) - er nu een hele `if` uitzonderingssituatie ingebouwd is. Daarnaast is de consument van de lijst verbonden met instanties van elementen die in de lijst van mogelijke elementen kunnen optreden.
 
 Nog beter zou het geweest zijn om te zoeken naar een manier om de uitzondering inherent te maken aan *elk element* in de lijst/set van mogelijke elementen die dit stuk code moet behandelen. Waarschijnlijk naar een extra stukje data of gedrag wat meegegeven wordt met elk element in de lijst zodat de uitzondering in principe geld voor elk element maar dat deze gewoon geen *effect* heeft in het geval van (hopelijk) de meeste elementen die mogelijk als input kunnen verschijnen. 
 
@@ -48,10 +48,10 @@ Dit zijn maar wat hypothetische voorbeelden maar hopelijk is het idee duidelijk.
 
 En ja ik besef dat ik me er een klein beetje makkelijk vanaf maak door niet echt met een concreet beter voorstel te doen wat betreft het eerste voorbeeld. Geloof me, dat duur niet lang meer man dan verschijnt het gewooon in de vorm van een checkin en niet in de vorm van een lang stuk wat in *markdown* formaat getypt is! ;P
 
-En geloof me, ik heb deze niet voor niets `001` genummerd want ik denk dat ik (zeker in code van het verleden en hopelijk minder in code van nu) nog wel meer hatsegeflats tegen zal komen.
+En geloof me, ik heb deze niet voor niets `001` genummerd want ik denk dat ik (zeker in code van het verleden en hopelijk minder in code van nu) nog wel meer hatsegeflats tegen zal komen. En dit is ook zeker niet persoonlijk bedoelt - ik reken het **ons** als **team** aan dat we dit soort zaken er doorheen laten *slippen* zonder kritisch op elkaar te zijn. Ik zal mensen aanspreken op hun code maar zou ze daar uiteindelijk nooit op afrekenen als het in ons VCS beland omdat we het als team gewoon toestaan dat deze dingen gebeuren.
 
-Desalniettemin hou ik wel van jullie anders zou ik natuurlijk al helemaal niet eens de moeite genomen hebben om dit te schrijven. En als je het oneens bent dan hoor ik dat natuurijk ook graag. Ik sluit niet uit dat ik het mis heb en hoor graag andere meningen. 
+Desalniettemin hou ik wel van jullie en **ons team** anders zou ik natuurlijk al helemaal niet eens de moeite genomen hebben om dit te schrijven. En als je het oneens met me bent dan hoor ik dat natuurijk ook graag. Ik sluit niet uit dat ik het mis heb en hoor graag andere meningen. 
 
-Vraag me ook gerust om mijn woorden in daden om te zetten. Mocht ooit het gevoel hebben dat je een conditie schrijft die complexer wordt als *simpel* (en simpel betekent echt heel simpel) dan help ik heel graag om mee te denken hoe we zoiets wellicht tactischer aan kunnen pakken.
+Vraag me ook gerust om mijn woorden in daden om te zetten. Mocht je ooit het gevoel hebben dat je een conditie schrijft die complexer wordt als *simpel* (en simpel betekent echt **supersimpel**) dan help ik heel graag om mee te denken hoe we zoiets wellicht tactischer aan kunnen pakken zodat we ook in de toekomst in een enkele oogopslag kunnen snappen wat de code doet.
 
-En geen checks meer op specifieke *id* waardes of omschrijvingen, codes als het effe kan ok? En a.u.b. helder commentaar i.p.v. cryptische aanwijzingen die niet duidelijk zijn in de context van de code. Voel je schuldig over elke `if` die je schrijft! K? Thanks! <3
+En geen checks meer op specifieke *id* waardes of omschrijvingen, codes als het effe kan ok? En a.u.b. helder commentaar i.p.v. cryptische aanwijzingen die niet duidelijk zijn in de context van de code. En voel je zeer schuldig over elke `if` die je schrijft! K? Thanks! <3
