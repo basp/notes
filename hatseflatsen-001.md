@@ -7,7 +7,6 @@ Vanavond werdt ik *getriggert* door een commit zonder commit message. Deze valle
 
     var activiteitdeelnames = Activiteit.Activiteitdeelnames.Where(x => x.Relatie.RelatieOrganisatieeenheden.Any(y =>
                     y.OrganisatieEenheidId == Activiteit.Organisatieeenheid.OrganisatieeenheidId
-                    && ((!relatiesoorten.Contains(y.Relatiesoort.KorteOmschrijving) && x.Relatie.LidTot < DateTime.Now) || (relatiesoorten.Contains(y.Relatiesoort.KorteOmschrijving) && y.EindDatum < DateTime.Now)))).ToList();
                     && (x.Relatie.LidTot < DateTime.Now || (relatiesoorten.Contains(y.Relatiesoort.KorteOmschrijving) && y.EindDatum < DateTime.Now)))).ToList();
 
 Ik moet eerlijk zeggen dat ik over het algemeen vrij comfortabel ben met LINQ expressies dus dat is niet het probleem. Het probleem is in dit geval het predicaat van de `Where` aanroep. Wat mij betreft overschrijdt dit predicaat de grenzen van wat ik als een redelijk argument voor een `Where` aanroep zou beschouwen.
