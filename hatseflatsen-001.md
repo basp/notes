@@ -1,4 +1,4 @@
-# Hatseflatsen
+# Hatseflatsen (001)
 Manne, jullie zijn stuk voor stuk geweldig slimme en kundige mensen. Maar kunnen we allemaal a.u.b. niet zo veel *hatseflatsen* in onze code?
 
 Wat bedoel ik met hatseflatsen? Dat zal ik laten zien maar eerst wil ik uitleggen hoe ik tot deze gist gekomen ben. Sinds een dag of twee wordt ik gelukkig weer op de hoogte gehouden van checkins op onze code. En kan daar nu ook weer iets strakker op zijn.
