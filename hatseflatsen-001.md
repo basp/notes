@@ -1,5 +1,11 @@
 # Hatseflatsen (001)
-Manne, jullie zijn stuk voor stuk geweldig slimme en kundige mensen. Maar kunnen we allemaal a.u.b. niet zo veel *hatseflatsen* in onze code?
+Laat ik ten eerste zeggen dat ik deze maar ook vorige sprint als een fantastische samenwerking en ervaring beschouw. Voor mij heerst er zeker een duidelijke *teamspirit*. En ben ik te optimischtisch als ik zeg dat ik ook een zekere mentaliteitsverschuiving ervaar? 
+
+Ik hoop dat jullie iets soortsgelijks ervaren. Ik hoor in ieder geval positieve geluiden vanuit de organisatie over ons team en dat betekend dat we ieder geval op de juiste weg zitten. Ik hoop dat we deze weg nog lang kunnen volgen. En ondanks dat ik (voordat ik bij de Cheetahs mocht aansluiten) binnen de organisatie een maand ofzo geleden nog aangegeven heb snel weer naar mijn oude team terug te willen. 
+
+En weet je wat? Nu er vandaag info kwam over een nieuwe senior was ik bang dat ze me wellicht weer weg zouden halen bij de Cheetahs maar ik heb bij Frank aangegeven dat ik dit niet wil. Het gras is vaak niet groener aan de andere kant. En ook al is ons gras bruin en lijkt het gras soms groener aan de andere kant, kijk dan voor de gein ook eens op het sprintbord van de Pathers en dan zul je zien dat ook zij (en ik weet zeker ook de mensen van Irbis) met exact dezelfde issues worstelen.
+
+Manne, jullie zijn stuk voor stuk geweldig slimme en kundige mensen. Maar kunnen we allemaal a.u.b. niet zo veel *hatseflatsen* in onze code? Zeker de voorbeelden die in dit eerste segment (er zullen er waarschijnlijk nog een paar volgen) kunnen we makkelijk fixen en voorkomen.
 
 Wat bedoel ik met hatseflatsen? Dat zal ik laten zien maar eerst wil ik uitleggen hoe ik tot deze gist gekomen ben. Sinds een dag of twee wordt ik gelukkig weer op de hoogte gehouden van checkins op onze code. En kan daar nu ook weer iets strakker op zijn.
 
