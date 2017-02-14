@@ -11,6 +11,8 @@ Vanavond werdt ik *getriggert* door een commit zonder commit message. Deze valle
 
 Ik moet eerlijk zeggen dat ik over het algemeen vrij comfortabel ben met LINQ expressies dus dat is niet het probleem. Het probleem is in dit geval het predicaat van de `Where` aanroep. Wat mij betreft overschrijdt dit predicaat de grenzen van wat ik als een redelijk argument voor een `Where` aanroep zou beschouwen.
 
+Ik bedoel, laten we eerlijk zijn: wie kan dit lezen en begrijpt meteen wat er gebeurt. Zeker as je gaat analyseren met betrekking tot de naam van de variable die het resultaat van deze `Where` gaat ontvangen moet je je toch achter je oren krabben?
+
 Het grootste probleem met dit predicaat is dat er veel en veel aspecten zonder naam rondzweven. Daarnaast trekt zo'n conditie nog meer clausules aan en zal hij er over het algemeen alleen maar complexer op worden. Dit is wat mij betreft leuk in een hobby project maar ik vind dat we als team moeten waken voor dit soort "slimmigheden" in onze code.
 
 > Onze code dient expliciet en eenvoudig te zijn. Makkelijk om te begrijpen, makkelijk om aan te passen, makkelijk om te testen en nooit meer of uitbundiger ontworpen als strict noodzakelijk om te voldoen aan de eisen en wensen van de klant.
