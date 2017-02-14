@@ -44,3 +44,13 @@ Dit zijn maar wat hypothetische voorbeelden maar hopelijk is het idee duidelijk.
     }
 
     var ongeldig = Abonnementen.Where(x => !IsGeldigAbonnement(x)).ToList();
+
+En ja ik besef dat ik me er een klein beetje makkelijk vanaf maak door niet echt met een concreet beter voorstel te doen wat betreft het eerste voorbeeld. Geloof me, dat duur niet lang meer man dan verschijnt het gewooon in de vorm van een checkin en niet in de vorm van een lang stuk wat in *markdown* formaat getypt is! ;P
+
+En geloof me, ik heb deze niet voor niets `001` genummerd want ik denk dat ik (zeker in code van het verleden en hopelijk minder in code van nu) nog wel meer hatsegeflats tegen zal komen.
+
+Desalniettemin hou ik wel van jullie anders zou ik natuurlijk al helemaal niet eens de moeite genomen hebben om dit te schrijven. En als je het oneens bent dan hoor ik dat natuurijk ook graag. Ik sluit niet uit dat ik het mis heb en hoor graag andere meningen. 
+
+Vraag me ook gerust om mijn woorden in daden om te zetten. Mocht ooit het gevoel hebben dat je een conditie schrijft die complexer wordt als *simpel* (en simpel betekent echt heel simpel) dan help ik heel graag om mee te denken hoe we zoiets wellicht tactischer aan kunnen pakken.
+
+En geen checks meer op specifieke *id* waardes of omschrijvingen, codes als het effe kan ok? En a.u.b. helder commentaar i.p.v. cryptische aanwijzingen die niet duidelijk zijn in de context van de code. Voel je schuldig over elke `if` die je schrijft! K? Thanks! <3
