@@ -1,6 +1,12 @@
 # Figuring out IdentityServer3 as a nub
 So tonight I got sick of my API being so unprofessionally unsecure so I decided to play around with Identity Server 3 for a bit. By no means a hard task - it was pretty much smooth sailing - I did stumble into a few snags here and there. I'll try to document them here so other people may hopefully benefit from my stumbling around.
 
+As background info, related to an upcoming project I was trying to familiarize myself with **OAuth** concepts and **Indentity Server 3** specifically. This is by no means a guide on how to get such a server into production but it should give people some insights into how to get one up and running. My reference was [Building and Securing a RESTful API for Multiple Clients in ASP.NET] by **Kevin Dockx** and one that was recommended to me. If you're unfamiliar with all any or all of OAuth, authentication, authorization, claims you probably should watch it as you are bound to deal with this at some point or another.
+
+[Building and Securing a RESTful API for Multiple Clients in ASP.NET](https://app.pluralsight.com/library/courses/building-securing-restful-api-aspdotnet/table-of-contents)
+
+And even though it is from an ASP.NET perspective, a lot of the material is generally useful to any developer. And especially those that are working in an environment that has affinity with the Microsoft stack.
+
 # The goal
 The goal was pretty humble, at least I *thought* it would be a humble. I had
 two primary objectives:
