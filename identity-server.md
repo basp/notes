@@ -3,7 +3,7 @@ So tonight I got sick of my API being so unprofessionally unsecure so I decided 
 
 As background info, related to an upcoming project I was trying to familiarize myself with **OAuth** concepts and **Indentity Server 3** specifically. This is by no means a guide on how to get such a server into production but it should give people some insights into how to get one up and running. My reference was [Building and Securing a RESTful API for Multiple Clients in ASP.NET](https://app.pluralsight.com/library/courses/building-securing-restful-api-aspdotnet/table-of-contents) by **Kevin Dockx** and (this one was recommended to me). 
 
-If you're unfamiliar with all any or all of **OAuth** or more generally modern authentication and authorization concepts you probably should watch it as you are bound to deal with this matter at some point or another.
+If you're unfamiliar with all any or all of [OAuth](https://oauth.net/) or more generally modern authentication and authorization concepts you probably should watch it as you are bound to deal with this matter at some point or another.
 
 And even though it is from an ASP.NET perspective, a lot of the material is generally useful to any developer no matter what stack you're working with.
 
