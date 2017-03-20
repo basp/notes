@@ -1,28 +1,27 @@
 # Figuring out IdentityServer3 as a nub
-So tonight I got sick of my API being so unprofessionally unsecure so I decided
-to play around with Identity Server 3 for a bit. By no means a hard task - it
-was pretty much smooth sailing - I did stumble into a few snags here and there.
-I'll try to document them here so other people may hopefully benefit from my
-stumbling around.
+So tonight I got sick of my API being so unprofessionally unsecure so I decided to play around with Identity Server 3 for a bit. By no means a hard task - it was pretty much smooth sailing - I did stumble into a few snags here and there. I'll try to document them here so other people may hopefully benefit from my stumbling around.
+
+# The goal
+The goal was pretty humble, at least I *thought* it would be a humble. I had
+two primary objectives:
+
+* Setup a local Identity Server 3 endpoint.
+* Obtain an access token using a CLI (a command line client).
+
+As I was following along with this pretty decent PluralSight course things went smoothly. But then I hit some terrain that wasn't covered in the tutorial and I'll try to cover that here.
+
+Turns out that for a command line client you probably want an authentication flow that is known as a *resource owner* flow and that was the single flow that wasn't covered in that otherwise great course. So I decided to venture further onto this *barely-trodden path* anyway to see what's there. Turns out it's pretty good actually once you get past some potential hurdles.
 
 # Where's the template?
-As most of the examples and documentation is based on an OWIN server this gave
-me a bit of a had scratcher at first. The core templates in Visual Studio tend
-to give you an OWIN based application but the classic .NET Framework template
-is based on the traditional IIS infrastructure and uses the somewhat old school
-`global.asax` way of initializing applications.
+Most of the examples and documentation are/is based on OWIN. This gave me a bit of a head scratcher at first. The **.NET Core** web templates that ship with Visual Studio 2017 Community tend to give you an OWIN based application. But the more traditional **ASP.NET Web Application** template I wanna use is based on IIS infrastructure and uses the somewhat old school `global.asax` way of initializing applications.
 
-There's not really an OWIN template. At least not one that ships with Visual
-Studio Community edition. Luckily the empty ASP.NET application template suits
-just fine. First we'll create an empty blank solution (under **Other project types**) 
-and we'll name it **IdSrvTutorial** for demo educational purposes.
+The bad news is, there's not really an OWIN template for that sort of application in Visual Studio 2017 Community. The good news is: we don't need one, the empty ASP.NET application template suits just fine. First we'll create an empty blank solution (under **Other project types**) and we'll name it **IdSrvTutorial** for demo educational purposes.
 
-Next we'll *add** a new project to that solution that is gonna be our identity
-server endpoint. We'll use an **ASP.NET Web Application (.NET Framewor)** template
-and name it **IdSrv**. In the next dialog we want the **empty** template. 
+Next we'll *add** a new project to that solution that is gonna be our identity server endpoint. We'll use an **ASP.NET Web Application (.NET Framework)** template and name it **IdSrv**. In the next dialog we select the **empty** template. We don't need any of the ASP.NET MVC, Web API or other stuff so we can leave those checboxes unchecked.
 
-This should give us a very barebones ASP.NET application. We'll setup the server
-in the next section.
+This should give us a very barebones ASP.NET application. 
+
+> As a sidenote, you got to love the clean slate without the pregenerated and opinionated cruft that you usually get from the poorly designed templates. Those templates that you get with Visual Studio have never ever led someone down the *pit of success*. They have only led people down the pit of *frustrating*, *deeply* frustrating **doom**. Use them for convenience but realize they offer no insight into what is considered good software development practice.
 
 To complete our project we'll need to install two packages:
 
@@ -32,13 +31,13 @@ And:
 
     install-pacakge IdentityServer3
 
-Once we have those we can start to build our identity server endpoint.
+Once we have those we can start to build our identity server endpoint. We'll configure it in the next section.
 
-# Setting up the server
+# Configuring the endpoint
 TODO
 
 # Notes
-Below is some random notes 
+Below is some random notes on random stuff that I encountered tonight while I was journeying during the fabulous lands of ASP.NET, OWIN, Identity Server 3 and Windows permissions and certificates (ugh).
 
 * There's no starter template for OWIN in Visual Studio 2017 Community. But an empty ASP.NET template will do. Setting up the `Program.cs` and `Startup.cs` 
 classes is pretty easy and for an **Identity Server** endpoint you don't need much except the `Microsoft.OWIN.Host.SystemWeb` and `IdentityServer3` NuGet packages.
@@ -58,3 +57,5 @@ Finally, the client needs to request at least some scope. If you request no scop
         Enabled = true,
         Name = "quux",
     }
+
+Hopefully this helps getting more fun out of getting your endpoint up and running and eventually into production. I thought it was fun to play around with the server, hopefully some of my roadblocks can at least alleviate some of the frustrating moments of being completely clueless that I enountered. Enjoy!
