@@ -15,7 +15,7 @@ The goal was pretty humble. At least I *thought* it would be humble. There were 
 
 As I was following along with this pretty decent PluralSight course things went smoothly. But then I hit some terrain that wasn't covered in the tutorial and I'll try to cover that here.
 
-Turns out that for a command line client you probably want an authentication flow that is known as a **resource owner password credentials grant** and that was the single flow that wasn't covered in this otherwise great course by Kevin Dockx. So I decided to venture further onto this *barely-trodden path* to see if I could reach the end without any guidance from my - at this point - trustworthy mentor Kevin. 
+Turns out that for a command line client you probably want an authentication flow that is known as a **resource owner password credentials grant** and that was the single flow that wasn't covered in this otherwise great course. So I decided to venture further onto this *barely-trodden path* to see if I could reach the end without any guidance from my - at this point - trustworthy mentor. 
 
 Turns out it's not that hard to reach the end and the path itself is not that bad (once you know where some of the obstacles are).
 
