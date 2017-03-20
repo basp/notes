@@ -20,7 +20,7 @@ Turns out that for a command line client you probably want an authentication flo
 Turns out it's not that hard to reach the end and the path itself is not that bad (once you know where some of the obstacles are).
 
 # Where's the template?
-Most of the examples and documentation are/is based on **OWIN**. This gave me a bit of a head scratcher at first. The **.NET Core** web templates that ship with Visual Studio 2017 Community tend to give you an OWIN based application. But the more traditional **ASP.NET Web Application** (**Framework**) template I want use is based on IIS infrastructure and uses the somewhat oldschool `global.asax` way of initializing applications.
+Most of the examples and documentation are/is based on **OWIN**. This gave me a bit of a head scratcher at first. The **.NET Core** web templates that ship with Visual Studio 2017 Community tend to give you an OWIN based application. But the more traditional **ASP.NET Web Application** (**Framework**) template I want to use is based on IIS infrastructure and uses the somewhat oldschool `global.asax` way of initializing applications.
 
 The bad news is: there's no OWIN template in Visual Studio 2017 Community. The good news is: we don't need one, the empty ASP.NET application template suits us just fine. First we'll create an empty blank solution (under **Other project types**) and we'll name it **IdSrvTutorial** for educational purposes.
 
