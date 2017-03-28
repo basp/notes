@@ -45,7 +45,7 @@ Below is some random notes on random stuff that I encountered tonight while I wa
 
 * There's no starter template for OWIN in Visual Studio 2017 Community. But an empty ASP.NET template will do. Setting up the `Program.cs` and `Startup.cs` 
 classes is pretty easy and for an **Identity Server** endpoint you don't need much except the `Microsoft.OWIN.Host.SystemWeb` and `IdentityServer3` NuGet packages.
-* When you stumble into opaque `500` errors originating from inside the identity  endpoint (the IdentityServer component) make sure to configure a logger (the **Serilog.Sinks.Trace** sink works nice enough for simple debugging purposes).
+* When you stumble into opaque `500` errors originating from inside the identity  endpoint (the IdentityServer OWIN component) make sure to configure a logger (the **Serilog.Sinks.Trace** sink works nice enough for simple debugging purposes).
 to see what *exactly* the error is. 
 * Store client secrets server side using `new Secret("somesecret".Sha256())` (or `.Sha512()`) 
 and not in plain text (e.g. `new Secret("somesecretinplainsight")`). If you don't do this, you'll probably run into `invalid_client` error responses.
