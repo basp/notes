@@ -1,4 +1,5 @@
 # Exceptions
+Een paar willekeurige observaties over `Exception` instances en de manier waarop we daar soms mee om gaan:
 
 1. Als er in de constructor een `Exception` optreed denk ik: "WTF?"
 2. Als er bij het afvangen van een `Exception` een andere `Exception` optreed denk ik "WTFF!?"
