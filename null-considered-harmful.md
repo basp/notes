@@ -78,8 +78,10 @@ Again - at the final boundary between your application and user there should def
 the actual problem.
 * The last point is mainly if you're writing code that is not on the "outside" facing user land.
 
-Just say no guys, you can do it. Dont "safe" cast unless you have an explicit way for dealing with that `null` (in an `Equals` override for example). To me *safe casting* is actually very unsafe because it offers a real danger for `null` values getting into your system and popping up in distant other places of the system. If we all **just say no** and let it blow and have catch-all handlers facing user land I think we should be golden.
+Just say no guys, you can do it. Don't tolerate `null` and things will get a whole lot more sweet. Instead of fugly `null` values getting into your system and popping up in distant other places of the system (unexpected). 
 
-I might be missing something though.
+If we all **just say no** and let it blow and have catch-all handlers facing user land I think we should be golden.
+
+I might be missing something though; please *feed back*.
 
 **Much <3**
