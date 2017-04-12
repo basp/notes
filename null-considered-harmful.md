@@ -10,7 +10,7 @@ It's totally unnecessary and as we will see also hazardous. When a `null` gets i
 # Business summary
 If you use [Optional](https://github.com/nlkl/Optional) by **Nils Lück** (what a fabulous name by the way) you could replace all potential `null` values with more sensible `Optional<T>` or `Optional<T,TEx>` values. I do realize however that the `Option` type is also contagious just as `null` and even though I feel it's a better (more explicit) solution (that keeps good stack traces as well in case things go wrong) it should be applied with care and small doses at first (which is easily possible). 
 
-It's very easy to introduce `Option` into a part of your code and still offer a less functional and more imperative interface to the outside world. However, once you are in `Option` land it's not that easy to get out of it because it's great place to be in.
+It's very easy to introduce `Option` into a part of your code and still offer a less functional and more imperative interface to the outside world. However, once you are in `Option` land it's not that easy to get out of it because it's just a great place to be in.
 
 It's definitaly a much better solution than `null` but the best solution is not dealing with `null` at all.
 
