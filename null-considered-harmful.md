@@ -19,7 +19,7 @@ So **just say no** to `null` now because you don't need it. It's an evil value t
 
 And when you carefully have to document your code you probably should consider making your code more clear and less ambiuous instead. Let's not forget: the **code is the blueprint** and we can make beautiful diagrams for all we want but if only we would utilize the tools that are already builtin to our fancy programming languages we wouldn't need to document things on that level. 
 
-Of course we would still need to document thing but those could really cut to the chase instead of dwindlingn on what a particular value of `null` represents in what scenario.
+Of course we would still need to document things but those could really cut to the chase instead of dwindlingn on what a particular value of `null` represents in what scenario.
 
 # How to make it explicit
 First consider if you really want to deal with `null` in the first place. Ask yourself:
