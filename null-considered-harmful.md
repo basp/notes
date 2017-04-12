@@ -8,11 +8,11 @@ It's totally unnecessary and as we will see also hazardous. When a `null` gets i
 > Suprise surpise! The unexpected is the best prize!
 
 # Business summary
-If you use [Optional](https://github.com/nlkl/Optional) by **Nils Lück** (what a fabulous name by the way) you could replace all potential `null` values with more sensible `Optional<T>` or `Optional<T,TEx>` values. I do realize however that the `Option` type is also contagious just as `null` and even though I feel it's a better (more explicit) solution (that keeps good stack traces as well in case things go wrong) it should be applied with care and small does. 
+If you use [Optional](https://github.com/nlkl/Optional) by **Nils Lück** (what a fabulous name by the way) you could replace all potential `null` values with more sensible `Optional<T>` or `Optional<T,TEx>` values. I do realize however that the `Option` type is also contagious just as `null` and even though I feel it's a better (more explicit) solution (that keeps good stack traces as well in case things go wrong) it should be applied with care and small doses at first (which is easily possible). 
 
-Once you are in `Option` land it's not that easy to get out of it.
+It's very easy to introduce `Option` into a part of your code and still offer a less functional and more imperative interface to the outside world. However, once you are in `Option` land it's not that easy to get out of it because it's great place to be in.
 
-It's a better solution than `null` but the best solution is not dealing with `null` at all.
+It's definitaly a much better solution than `null` but the best solution is not dealing with `null` at all.
 
 # The rage agains `null`
 So **just say no** to `null` now because you don't need it. It's an evil value that represents nothing. It holds even less information than a **bit** and you can't get much lower than that. It's ambiguous most of the time for what exactly it means unless you carefully document it. 
@@ -33,7 +33,7 @@ In order to more clearly examine how to deal with `null` instead of dealing with
 If you really need to handle `null` because of some kind of API you have to deal with then you should consider replacing them with either an `Option` or (maybe better) a `NullValue` implemenation if you're dealing with a lot of behaviour. This is similar to using `Nullable` which at least makes it explicit but doesn't offer much safety and is also not ideomatic when you're already dealing with reference types.
 
 ### As an unknown value
-Something you have this method and it's in the family of *mapping* methods and you give it a thing and it returns some other thing (it might have side-effects as well and in that case shame on you but I'll talk about that in a future story about **CQRS**).
+Sometimes you have this method and it's often more or less in the family of *mapping* methods and you give it a thing and it returns some other thing (it might have side-effects as well and in that case shame on you but I'll talk about that in a future story about **CQRS**).
 
 You might be tempted to return `null` in case the user gives you something that your method doesn't understand. **Don't do it.**
 
