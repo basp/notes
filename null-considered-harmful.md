@@ -12,7 +12,7 @@ If you use [Optional](https://github.com/nlkl/Optional) by **Nils Lück** (what 
 
 It's very easy to introduce `Option` into a part of your code and still offer a less functional and more imperative interface to the outside world. However, once you are in `Option` land it's not that easy to get out of it because it's just a great place to be in.
 
-It's definitaly a much better solution than `null` but the best solution is not dealing with `null` at all.
+It's definitely a much better solution than `null` but the best solution is not dealing with `null` at all.
 
 # The rage agains `null`
 So **just say no** to `null` now because you don't need it. It's an evil value that represents nothing. It holds even less information than a **bit** and you can't get much lower than that. It's ambiguous most of the time for what exactly it means unless you carefully document it. 
