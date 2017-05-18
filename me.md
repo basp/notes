@@ -25,6 +25,18 @@ I remember mostly playing around with Banner and WordPerfect 5.1 in those days. 
 A few years later we finally got a real computer of our own, a 386DX40 and I got some good use out of that thing. That was also when I encountered so called *demos* which the rest of this will mostly be about.
 
 # Demos
-What do I mean? Here's a reasonably short example.
+What do I mean? A *demo* as considered here is a piece of software that is intended to show off the skills of one or more people. Those skills usually relate to programming, music and art (the three skills that are important to create games in particular).
+
+Most demos are created by a group of people. Usually three of more where you have a programmer, an artist and a composer. It's not uncommon that some people can perform in multiple roles.
+
+Some of these early crews have grown to big companies by now (DICE for example) and some of the names exist for more than 30 years now (Fairlight) but I don't think the original crew is still the same. A lot of them started out as so called *crackers* that made it their mission to find ways to bypass the digital security around video games at that time.
+
+Here's a reasonably short example of a somewhat modern demo.
 
 [Conspiracy Theory 64k](https://www.youtube.com/watch?v=ZfuierUvx1A)
+
+**Assembly** is the biggest demo party (or at least the most legendary) and it's held in Helsinki each year. That's also why I'm going to visit that city later this year, after years of longing I'll finally be visiting.
+
+# TODO
+* Personal efforts
+* General about demos and how progging, visuals and music fit together
