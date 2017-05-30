@@ -13,21 +13,29 @@ Een expressie heeft een waarde. Het is functioneel een veel natuurlijkere vorm a
 
 Dus in plaats van:
 
-    int thing;
+    FooBarThing thing;
     if(other == something)
     {
         thing = new FooBarThingStuff();
+        // Do lot's of stuff to setup `thing`
     }
     else
     {
-        thing = new FooBarOtherThingStuff();    
+        thing = new FooBarOtherThingStuff();
+        // Some other mutilation to setup `thing`...    
     }
 
 Waarom niet:
 
     var thing = other == something 
-        ? new FooBarThingStuff() 
-        : FooBarOtherThingStuff();
+        ? SetupFooBarThingInThisWay() 
+        : SetupFooBarThingInThatWay();
+
+    ...
+
+    static FooBarThing SetupFooBarThingInThisWay() { ... }
+
+    static FooBarThing SetupFooBarThingInThatWay() { ... }
 
 Veel minder mogelijkheden om fouten te maken en je maakt tegelijkertijd duidelijk aan andere mensen die de code zien dat je daar niet moet gaan zitten *hacken* omdat het kan. Het kan namelijk niet zo heel makkelijk zonder goed na te denken over wat je nou echt wilt bereiken. Terwijl als daar al een `if` **statement** staat dan is het supermakkelijk voor iemand die de codebase niet kent om daar in die *scope* gewoon even verder te gaan met van allerlei geneuzel wat daar uiteindelijk helemaal niet eens thuis hoort. Potentieel met nog meer `if` statements ("hey we zijn nu toch bezig!") en andere zaken die de complexiteit van de code alleen maar verhogen.
 
