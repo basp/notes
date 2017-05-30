@@ -27,15 +27,17 @@ Dus in plaats van:
 
 Waarom niet:
 
-    var thing = other == something 
-        ? SetupFooBarThingInThisWay() 
-        : SetupFooBarThingInThatWay();
+    var thing = IsSomething(other)
+        ? ThisWay() 
+        : ThatWay();
 
     ...
 
-    static FooBarThing SetupFooBarThingInThisWay() { ... }
+    static bool IsSomething(object other) { ... }
 
-    static FooBarThing SetupFooBarThingInThatWay() { ... }
+    static FooBarThing ThisWay() { ... }
+
+    static FooBarThing ThatWay() { ... }
 
 Veel minder mogelijkheden om fouten te maken en je maakt tegelijkertijd duidelijk aan andere mensen die de code zien dat je daar niet moet gaan zitten *hacken* omdat het kan. Het kan namelijk niet zo heel makkelijk zonder goed na te denken over wat je nou echt wilt bereiken. Terwijl als daar al een `if` **statement** staat dan is het supermakkelijk voor iemand die de codebase niet kent om daar in die *scope* gewoon even verder te gaan met van allerlei geneuzel wat daar uiteindelijk helemaal niet eens thuis hoort. Potentieel met nog meer `if` statements ("hey we zijn nu toch bezig!") en andere zaken die de complexiteit van de code alleen maar verhogen.
 
