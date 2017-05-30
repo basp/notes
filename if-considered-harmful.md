@@ -57,8 +57,8 @@ Voordat dit een boek wordt snel wat tips als je denkt" "da's allemaal leuk en aa
 * **Limiteer** ten alle tijde de scope waarin je opereert; probeer zo snel mogelijk naar de **linker** kantlijn te vluchten, hoe verder je afdwaald hoe gevaarlijker het wordt. 
 
 En ook:
-* Dat betekend dat je vaak beter eerder *uit een scope moet springen* dan een lang stuk logica in een scope verder van de linker kantlijn te implementeren.
-* Denk na over polymorphisme; hoe kun je een bepaald gewenst gedrag zo vertegenwoordigen dat het resultaat homogeen is (voortkomen, *interface*) maar de manier waarop je tot dit resultaat komt verschilt (implementatie).
+* Dat betekend dat je **vaak beter eerder** *uit een scope moet springen* dan een lang stuk logica in een scope verder van de linker kantlijn te implementeren.
+* Denk na over **polymorphisme** (in zijn pure vorm); hoe kun je een bepaald gewenst gedrag zo vertegenwoordigen dat het resultaat homogeen is (voortkomen, *interface*) maar de manier waarop je tot dit resultaat komt verschilt (implementatie).
 * Interfaces zijn *awesome*! Ze bieden je niet alleen een manier om na te denken puur in vormen van gedrag (heel handig als je vanuit consument van een API perspectief denk) maar ook als een veligheidsnet en vorm van documentatie. Als een methode een interface terug geeft in plaats van een concreet type is het vaak veel makkelijker te overzien wat je er echt mee kunt doen.
 * Probeer duplicatie in **pure** functies uit te drukken en niet in klasse-hierarchieen of overerving. Op school hebben we geleerd dat we moeten overerven om duplicatie te vermijden als we echt *OOP* willen zijn maar de ervaring leert dat overerving in de meeste gevallen niet leidt tot het gewenste resultaat (hierover meer in een andere memo).
 * **Object-georienteerd programmeren** maakt het heel makkelijk om je data-structuur te vereenvoudigen. Dat is ook waarom we in termen van gedrag willen denken als we pretenderen object-georienteerd bezig te zijn; als we een nieuw gedrag toe willen voegen (en we hebben ook nog eens te maken met hierarchieen) dan is dat vaak enorm lastig.
