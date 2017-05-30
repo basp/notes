@@ -1,6 +1,4 @@
 # `if` statements considered harmful
-Voordat we verder gaan is het handig om het onderscheid tussen een *statement* en een *expressie* te duiden. 
-
 ### disclaimer
 Excuses voor allen genen die niet zoveel om .NET of C# geven. 
 Hopelijk is het ook algemeen enigzins nuttig.
