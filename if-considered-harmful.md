@@ -6,7 +6,9 @@ Hopelijk is het ook algemeen enigzins nuttig.
 ### statements
 Een statement is vergelijkbaar met iets wat `void` (niets) als resultaat heeft. Het veroorzaakt hoogstwaarschijnlijk een **mutatie** van de omgeving waarin het programma draait op een dusdanige manier dat een eindgebruiker er (uiteindelijk) ook waarde aan kan ontrekken (in wat voor vorm dan ook).
 
-Dit is bijvoorbeeld een `Console.WriteLine` (of `console.log`) statement. Het kan zijn dat deze functies niet `void` (of `unit` of `()`, etc.) zijn maar dat ze ook een zogenaamde *return* waarde hebben. In de praktijk zullen deze waardes voornamelijk genegeerd worden.
+Dit is bijvoorbeeld een `Console.WriteLine` (of `console.log`) statement maar ook het weergeven van een webpagina, het sturen van een mailtje, het wegschrijven van een bestand of wat dan ook waardoor je omgeving veranderd. Dit hoeft niet alleen de omgeving te zijn waarin het programma opereert, het kan ook de staat van het programma zelf zijn. Denk aan een stopwatch die *gestart* of *gestopt* kan zijn. 
+
+Het kan zijn dat deze functies niet `void` (of `unit` of `()`, etc.) zijn maar dat ze ook een zogenaamde *return* waarde hebben. In de praktijk zullen deze waardes voornamelijk genegeerd worden.
 
 ### expressies
 Een expressie heeft een waarde. Het is functioneel een veel natuurlijkere vorm als een statement (bij een statement houd het op, er komt niets uit waarop je verder kunt borduren). Echter, bij een expressie heb je altijd een waarde waarmee je verder kan. Daarnaast is een expressie de meest oprechte vorm van een `if` in je code. Als je niet als een dolle gaat hacken komt er hoe dan ook een redelijke waarde uit zonder dat je in een zijtak van de code hoeft te gaan neuzelen (waar vaak weer een heel nieuw avontuur voor je ligt).
