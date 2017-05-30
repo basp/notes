@@ -51,10 +51,12 @@ Veel minder mogelijkheden om fouten te maken en je maakt tegelijkertijd duidelij
 ### conclusies
 Voordat dit een boek wordt snel wat tips als je denkt" "da's allemaal leuk en aardig maar wat kan ik concreet doen?":
 
-* Vermijdt `if` statements als de pest; 99/100 keer kun je ook wegkomen met een welgeplaatste expressie of impliciete branching door middel van andere constructies.
-* Schrijf *loops* zoveel mogelijk in termen van LINQ expressies.
-* Abstraheer *predicaten* naar `static bool` methodes met een mooie naam die lekker bekt (leest?) tussen de haakjes van je `if`, `Where` of net waar je een predicaat (expressie met als resultaat een `bool`) nodig hebt.
-* Limiteer ten alle tijde de scope waarin je opereert; probeer zo snel mogelijk naar de **linker** kantlijn te vluchten, hoe verder je afdwaald hoe gevaarlijker het wordt. 
+* **Vermijdt** `if` statements als de pest; 99/100 keer kun je ook wegkomen met een welgeplaatste expressie of impliciete branching door middel van andere constructies.
+* **Schrijf** *loops* zoveel mogelijk in termen van LINQ expressies.
+* **Abstraheer** *predicaten* naar `static bool` methodes met een mooie naam die lekker bekt (leest?) tussen de haakjes van je `if`, `Where` of net waar je een predicaat (expressie met als resultaat een `bool`) nodig hebt.
+* **Limiteer** ten alle tijde de scope waarin je opereert; probeer zo snel mogelijk naar de **linker** kantlijn te vluchten, hoe verder je afdwaald hoe gevaarlijker het wordt. 
+
+En ook:
 * Dat betekend dat je vaak beter eerder *uit een scope moet springen* dan een lang stuk logica in een scope verder van de linker kantlijn te implementeren.
 * Denk na over polymorphisme; hoe kun je een bepaald gewenst gedrag zo vertegenwoordigen dat het resultaat homogeen is (voortkomen, *interface*) maar de manier waarop je tot dit resultaat komt verschilt (implementatie).
 * Interfaces zijn *awesome*! Ze bieden je niet alleen een manier om na te denken puur in vormen van gedrag (heel handig als je vanuit consument van een API perspectief denk) maar ook als een veligheidsnet en vorm van documentatie. Als een methode een interface terug geeft in plaats van een concreet type is het vaak veel makkelijker te overzien wat je er echt mee kunt doen.
