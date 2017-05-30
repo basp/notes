@@ -25,6 +25,9 @@ Dus in plaats van:
         // Some other mutilation to setup `thing`...    
     }
 
+    // Probably even more stuff done to poor `thing`...
+
+
 Waarom niet:
 
     var thing = IsSomething(other)
