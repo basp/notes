@@ -59,6 +59,10 @@ Voordat dit een boek wordt snel wat tips als je denkt" "da's allemaal leuk en aa
 * Denk na over polymorphisme; hoe kun je een bepaald gewenst gedrag zo vertegenwoordigen dat het resultaat homogeen is (voortkomen, *interface*) maar de manier waarop je tot dit resultaat komt verschilt (implementatie).
 * Interfaces zijn *awesome*! Ze bieden je niet alleen een manier om na te denken puur in vormen van gedrag (heel handig als je vanuit consument van een API perspectief denk) maar ook als een veligheidsnet en vorm van documentatie. Als een methode een interface terug geeft in plaats van een concreet type is het vaak veel makkelijker te overzien wat je er echt mee kunt doen.
 * Probeer duplicatie in **pure** functies uit te drukken en niet in klasse-hierarchieen of overerving. Op school hebben we geleerd dat we moeten overerven om duplicatie te vermijden als we echt *OOP* willen zijn maar de ervaring leert dat overerving in de meeste gevallen niet leidt tot het gewenste resultaat (hierover meer in een andere memo).
+* **Object-georienteerd programmeren** maakt het heel makkelijk om je data-structuur te vereenvoudigen. Dat is ook waarom we in termen van gedrag willen denken als we pretenderen object-georienteerd bezig te zijn; als we een nieuw gedrag toe willen voegen (en we hebben ook nog eens te maken met hierarchieen) dan is dat vaak enorm lastig.
+* **Klassen** hebben niets te maken met object-georienteerd programmeren (het is een middel om duplicatie van code tegen te gaan, het zijn *object-factories*). De eerste echte object-georienteerde programmeertalen hadden niet eens een notie van *klassen*.
+* **Functioneel programmeren** maakt het heel erg makkelijk om nieuwe bewerkingingen toe te voegen aan een bestaande data-structuur. Echter, als we de data structuur willen wijzigen dan betekend dat vaak dat we al ons bestaand gedrag ook aan moeten passen.
+* Merk op dat in dit opzicht functioneel programmeren het spiegelbeeld is van zogenaamd object-georienteerd programmeren.
 
 ### reacties
 Ik hoor ze graag! Uiteindelijk is dit toch voornamelijk voer voor discussie!
