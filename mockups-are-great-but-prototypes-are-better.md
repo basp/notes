@@ -40,9 +40,15 @@ Ik heb niet echt het idee dat dat *agile* is of dat de klanten dat van ons verla
 
 Hola-di-yo dat is dus absoluut niet zo. De enige software die diagrammen, schemas en plaatjes nodig heeft buiten de code is software die *obfuscated* (of *obtuse*) is. Wat niemand lijkt te begrijpen is dat de code juist ons ontwerp is. Daarom hamer ik ook altijd op leesbaarheid, duidelijkeheid en vooral ook **begrijpelijkheid** van de code. Het is onze blauwdruk voor de software die we uiteindelijk produceren. Hoe meer *state* je in je hoofd moet bijhouden om een stuk code te doorgronden hoe meer problemen dat uiteindelijk geeft.
 
-Het is extreem aan te bevelen om je code waar mogelijk te beperken tot expressies en zoveel mogelijk functioneel zeker in een vroeg stadium als je wellicht nog niet precies weet hoe de uiteindelijke structuur van de oplossing zich zal ontvouwen (*evolving architectgure* is het sleutelbegrip hier).
+> Hoe meer **functioneel** je programmeert, des te minder fouten je uiteindelijk maakt. Je kunt hier natuurlijk in doorslaan, zoals ik zelf nog wel eens wil doen, maar uiteindelijk kun je altijd nog **imperatief** gaan als het echt moet. 
 
-Niet veel mensen maken blauwdrukken voor blauwdrukken dus daarom geloof ik ook niet in diagrammen. Sterker nog, ik geloof dat diagrammen, ontwerpen (anders dan in code) programmeurs valse zekerheid geven en ze zelfs het verkeerde pad op leiden. Elk software project wat een beetje strak in elkaar zit zou je moeten kunnen doorgronden door gewoon de blauwdruk (de **code** dus) te inspecteren. Ik ben hier trouwens enorm stellig in omdat ik alle variaties al een keer geprobeerd heb en ja, het is dus echt zo dat de code uiteindelijk de enige echte blauwdruk is en dat zogenaamde documentatie in de professionele sfeer eeder vaak een *red-herring* is dan een stukje informatie waar je echt wat aan hebt. 
+Waarom maken we blauwdrukken voor blauwdrukken en niet blauwdrukken voor blauwdrukken voor blauwdrukken? 
+
+Ik geloof dat diagrammen, ontwerpen (anders dan in code) programmeurs valse zekerheid geven en ze zelfs het verkeerde pad op leiden omdat ze naar diagrammen werken en elke notie van de daadwerkelijke blauwdruk (code) uit het beeld verliezen. 
+
+Elk software project wat een beetje strak in elkaar zit is te doorgronden door gewoon de blauwdruk (de **code** dus) te inspecteren. En dat zijn niet alleen triviale projecten. 
+
+Ik ben hier trouwens enorm stellig in omdat ik alle variaties al een keer geprobeerd heb en ja, het is dus echt zo dat de code uiteindelijk de enige echte blauwdruk is en dat zogenaamde documentatie in de professionele sfeer eeder vaak een *red-herring* is dan een stukje informatie waar je echt wat aan hebt. 
 
 Nou is een stukje praktische documentatie niet verkeerd maar wat wij doen, uitleggen *hoe iets in elkaar zit* is extreem nutteloos. Niemand wil dat lezen want iedereen weet dat die informatie toch nooit klopt met de daadwerkelijke code. 
 
@@ -59,6 +65,8 @@ En ga nou niet helemaal zwart-wit hier: ik zeg niet dat diagrammen, modellen, sc
 Maar als we ons eigen werk zo nauwkeurig moeten gaan documenteren omdat we er anders niets meer van snappen dan stel ik voor om deze sprint ergens een half uurtje te overleggen wat we nou echt van deze abstracties vinden want persoonlijk wordt ik hier niet gelukkig van (als programmeur) en volgens mij de klanten ook niet.
 
 ## Tests die superveel overhead hebben
+> Ik ben soms gewoon een dag bezig alleen om een unit test te schrijven terwijl de implementatie een uurtje werk was.
+
 Ok we weten allemaal dat unit tests cool zijn maar wij gebruiken ze *totaal* verkeerd. We schrijven de code, doen keurig alle *lagen* en hebben dan **de infrastructuur**  klaar. Vervolgens zijn we vaak een paar uur verder en kunnen we eindelijk voor de klant aan de bak. Oh *CRUD* what are we doing. Nadat je ongeveer honderdvijftig projecten hebt aangepast ga je een unit test schrijven. *Moq*'ed ongeveer een dozijn services en dan roep je een methode aan op je *sut* om te kijken of alles werkt.
 
 Heb je logica getest? Heb je verwachtingen getest? Heb je waarde voor de klant getest? "De zogenaamde *business rules*? Wat heb je getest? Infrastructuur? Heeft het waarde? Is het waarschijnlijk dat het stukje code kapot gaat in de toekomst? Is het complex dusdanig dat het te documenteren is met een heldere testcase?
@@ -72,7 +80,13 @@ Dat gezegd hebbende - ik hou heel erg veel van jullie allemaal en ons team en ho
 Bas
 
 PS. Nou zul je wellicht denken:
-> Bas dat was wel echt een hoop gezeik, ben je echt zo ontevreden? Nee dat absoluut niet, jullie zijn echt een superteam en ik heb het enorm naar mijn zin. Maar ik vind dat de tijd aangebroken is om deze problemen aan te kaarten aangezien het onze *agility* behoorlijk limiteerd en daarnaast ook nog een hoop overhead en frictie veroorzaak. Wat we anders moeten doen weet ik morgen vast nog wel als ik deze post herlees. En daarnaast geloof ik dat jullie het juiste willen doen maar ik denk tegelijkertijd dat het juiste misschien niet helemaal is wat jullie denken en ik zou de discussie graag openbreken.
+> Bas dat was wel echt een hoop gezeik, ben je echt zo ontevreden? 
+
+Nee dat absoluut niet, het is een superteam en ik heb het enorm naar mijn zin en ben ook enorm trots op hoe jullie het voor elkaar gekregen hebben om een dusdanige gedaanteverwisseling te ondergaan. 
+
+Ik vind echter dat we zover gekomen zijn dat de tijd aangebroken is om deze problemen aan te kaarten aangezien het onze *agility* behoorlijk limiteerd en daarnaast ook nog een hoop overhead en frictie veroorzaakt. Wat we anders moeten doen weet ik morgen vast nog wel als ik deze post herlees. En daarnaast geloof ik dat jullie het juiste willen doen maar ik denk tegelijkertijd dat het juiste misschien niet helemaal is wat jullie denken en ik zou de discussie graag openbreken.
 
 PS2. Weinig oplossingen
 Die heb ik maar komen later. Verdient een eigen verhaal.
+
+PS3. https://www.thoughtworks.com/insights/blog/microservices-evolutionary-architecture
