@@ -74,3 +74,7 @@ Op kleine schaal werkt dit redelijk maar als je dit twee keer toepast dan worden
 * En dat die mutaties niet echt traceerbaar of herleidbaar of gedocumenteerd zijn?
 * Of dat database data en applicatie zo nauw gekoppeld zijn dat je in feite programmeert door cellen in een tabel te muteren?
 * Let wel: soms is dit een juiste call maar meestal heb je dat soort vormen van abstractie niet meteen nodig.
+
+# Supercontroversieel
+* Als code maar op een enkele plek gebruikt wordt dan is dat geen excuus om een deel daarvan te abstraheren als dat verduidelijking geeft.
+* Als soortgelijke code op meerdere plekken optreed is dat niet altijd noodzaak om te refactoren (zeer controversieel). De redenatie is dat als jij op een gegeven moment een patroon ziet dan denk je: "ik refactor it". Goed. DAn heb je een nog abstractere functie die het werk voor je doet. Nu krijg je te maken met een veranderende wens (van de klant of wie dan ook) en dat zou waarschijnlijk super-easy zijn als het allemaal nog "lelijk" duplicaat was maar nu heb je die prachtige abstracte functie en moet je op nog een hoger abstractie niveau gaan nadenken over hoe je dat in je bestaande abstractie toe gaat voegen (dit is een genuanceerd punt).
