@@ -50,12 +50,12 @@ Ook de scope gaat van programmeren tot aan dev-ops dus die is ook nogal inconsis
 * Dat zoiets *uiteindelijk* uitgroet naar een hele documentatie site met alle toeters en bellen is top maar is dit werkelijk een prijs die we *up-front* willen (**moeten**) betalen?
 * Als je me vertelt hoe een systeem werkt maar ik snap nog niet hoe ik het kan installeren, opstarten of uberhaupt gebruiken dan is die informatie over de werking vrij nutteloos. 
 * Als je me vertelt hoe een systeem lokaal geinstalleerd en gebruikt kan worden dan ben ik tenminste in staat als ontwikkelaar om zelf het systeem te doorgronden en zelfs eventueel de aanvullende documentatie omtrend werking (indien nodig) te produceren.
-* Lego niet Playmobile.
+* Lego niet Playmobile. Dat wil zeggen: een set van blokjes die op creatieve manieren gecombineerd kunnen worden; niet een set van blokken die op een bepaalde vooraf uitgedachte manier bij elkaar passen.
 
 # Database-driven applicaties
 Sommige ontwikkelaars (wellicht voornamelijk de meer jongere generatie) heeft een hekel aan database omdat deze vaak geassocieerd worden met een bepaald soort legacy applicatie. 
 
-Vaak is de gedachtengang als volgt geweest:
+Vaak is de gedachtengang bij het onstaan van zo'n applicatie als volgt geweest:
 
 1. Ik heb logica nodig maar eigenlijk wil ik geen release/deploy doen want die zijn enorm lastig.
 2. Weetje wat? Ik maak een *switch* colum in de database.
