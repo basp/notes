@@ -1,0 +1,38 @@
+PWD d:/basp/notes
+INPUT C:/Users/Bas/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT d:/basp/notes/test.tex
+OUTPUT test.log
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT test.aux
+INPUT test.aux
+OUTPUT test.aux
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT test.pdf
+INPUT C:/Users/Bas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT test.aux
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT C:/Users/Bas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb

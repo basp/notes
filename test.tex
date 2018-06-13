@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\begin{flushleft}
+Before we look at base 2 we'll look at what happens in base 10 first.
+\begin{align}
+    \frac{1}{3} &= \frac{1}{3} \cdot 10^{0}\\
+                &= \frac{1 \cdot 10^1}{3} \cdot 10^{-1}\\
+                &= \frac{1 \cdot 10^2}{3} \cdot 10^{-2}\\
+                &= \frac{1 \cdot 10^n}{3} \cdot 10^{-n}
+\end{align}
+As $n$ gets larger our precision increases.
+\begin{align}
+    \frac{1 \cdot 10^2}{3} \cdot 10^{-2} &= 0.33\\
+    \frac{1 \cdot 10^5}{3} \cdot 10^{-5} &= 0.33333
+\end{align}
+\end{flushleft}
+\end{document}
