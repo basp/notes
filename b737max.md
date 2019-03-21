@@ -60,6 +60,13 @@ control.
 * This is a trim system that has control over the complete stabilizer instead of
 just some trim surfaces.
 * The stabilizer is the horizontal wing on the tail of a plane.
+* On a 737, the stabilizer trim *can* wrestle control from the pilot.
+
+# Runaway stabilizer trim
+* For reasons unclear, the automatic trim system that is used by the auto pilot
+can sometimes *runaway*. 
+* This is annoying but not a super serious problem since this is a *known*
+problem and pilots have this memorized as a *memory item* for the 737.
 
 # The testing
 * It's unclear wether the aerodynamical problems with the 737MAX (due to its
