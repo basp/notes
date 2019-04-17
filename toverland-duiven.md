@@ -1,6 +1,6 @@
 [Context](https://www.looopings.nl/weblog/12020/Toverland-krijgt-vergunning-om-duiven-af-te-schieten-Veel-overlast.html)
 
-Dat afschieten gaat op de lange termijn nooit werken. Uiteindelijk zit daar doodleuk weer een nieuwe groep duiven op je ingang te schijten. Uit het artikel blijkt dat Toverland zijn *uiterste* - ahem - best gedaan heeft om iets aan de duivenoverlast te doen:
+Dat afschieten gaat op de lange termijn nooit werken. Uiteindelijk zit daar doodleuk weer een nieuwe groep duiven op je ingang te schijten. Uit het artikel blijkt dat Toverland zijn uiterste - *ahem* - best gedaan heeft om iets aan de duivenoverlast te doen:
 
 > We hebben ze geprobeerd te vangen en te verplaatsen en we hebben geprobeerd om het minder aantrekkelijk te maken om op die plek te nestelen. Toch bleven ze terugkomen.
 
