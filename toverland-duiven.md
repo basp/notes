@@ -35,10 +35,10 @@ Afgezien van alle bloempraat zitten hier twee stellingen in:
 
 Deze stellingen zijn niet onwaar maar er ontbreekt wel enige nuance.
 
-### Schade aan decoraties
+### schade aan decoraties
 Als dit specifiek over de "oude" ingang gaat dan is die eigenlijk niet eens zo mooi meer. En voor mij past hij al helemaal niet meer in het moderne Toverland. Als dat ding afbrokkelt is dat niet alleen door de duiven maar mede dankzij de duiven. Misschien als Toverland wat vaker die oude meuk zou schoonmaken en schilderen dat er niet zo'n probleem zou zijn.
 
-### Duivenpoep is potentieel gevaarlijk
+### duivenpoep is potentieel gevaarlijk
 Inderdaad. Poep, van welk organisme dan ook is potentieel gevaarlijk. Zuurstof is potentieel gevaarlijk. Vuur is potentieel gevaarlijk. Autorijden is potentieel gevaarlijk. Bedankt Toverland voor deze wijsheid.
 
 Dat is waarom je dingen eens in de zoveel tijd moet schoonmaken. Dat is waarom je af en toe met een huge druk je exterieur schoonspoelt of je voorgevel schoon spoelt. Of je laat het gewoon verotten en geeft dan de duiven de schuld zodat een of andere lokale jager effe lekker zijn geweertje leeg kan laten paffen op wat levende doelwitten, dat kan natuurlijk ook.
