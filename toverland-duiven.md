@@ -1,4 +1,4 @@
-[Context](https://www.looopings.nl/weblog/12020/Toverland-krijgt-vergunning-om-duiven-af-te-schieten-Veel-overlast.html)
+Toverland heeft het eindelijk gemaakt! Zelfs duiven zijn niet meer weg te slaan. Echter zijn het geen welkome bezoekers. Nadat relocatiepogingen faalden [besluit Toverland om ze nu maar gewoon af te schieten](https://www.looopings.nl/weblog/12020/Toverland-krijgt-vergunning-om-duiven-af-te-schieten-Veel-overlast.html).
 
 Dat afschieten gaat op de lange termijn nooit werken. Uiteindelijk zit daar doodleuk weer een nieuwe groep duiven op je ingang te schijten. Uit het artikel blijkt dat Toverland zijn uiterste - *ahem* - best gedaan heeft om iets aan de duivenoverlast te doen:
 
