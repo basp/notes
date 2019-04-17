@@ -6,7 +6,7 @@ Dat afschieten gaat op de lange termijn nooit werken. Uiteindelijk zit daar dood
 
 Ik moest wel een klein beetje lachen om deze diervriendelijke knulligheid. Misschien dat ze in Toverland nog niet erg bekend zijn met de eigenaardigheden van de duif maar de volgende feiten zijn over het algemeen toch welbekend:
 
-* Het zijn snelle vliegers die lange afstanden met een groot uithoudingsvermogen
+* Het zijn snelle vliegers met een groot uithoudingsvermogen
 * Ze hebben een extreem goed orientatievermogen
 * Ze zijn enorm honkvast
 
