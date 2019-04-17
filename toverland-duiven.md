@@ -10,4 +10,5 @@ Ik moest wel een klein beetje lachen om deze diervriendelijke knulligheid. Missc
 * Ze hebben een extreem goed orientatievermogen
 * Ze zijn enorm honkvast
 
-Deze drie eigenschappen verklaren meteen al waarom verplaatsen nooit zal werken. Misschien als je op een schip richting de andere kant van de wereld zet maar dan nog zou het me niet verbazen als ze sneller als verwacht gewoon weer op hun oude plek ziten.
+Deze drie eigenschappen verklaren meteen al waarom verplaatsen nooit zal werken. Misschien als je ze naar Japan verkast maar dan nog zou het me niet verbazen als ze sneller als verwacht gewoon weer op hun oude plek ziten.
+
