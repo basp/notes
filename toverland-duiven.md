@@ -41,7 +41,7 @@ Als dit specifiek over de "oude" ingang gaat dan is die eigenlijk niet eens zo m
 ### duivenpoep is potentieel gevaarlijk
 Inderdaad. Poep, van welk organisme dan ook is potentieel gevaarlijk. Zuurstof is potentieel gevaarlijk. Vuur is potentieel gevaarlijk. Autorijden is potentieel gevaarlijk. Bedankt Toverland voor deze wijsheid.
 
-Dat is waarom je dingen eens in de zoveel tijd moet schoonmaken. Dat is waarom je af en toe met een huge druk je exterieur schoonspoelt of je voorgevel schoon spoelt. Of je laat het gewoon verotten en geeft dan de duiven de schuld zodat een of andere lokale jager effe lekker zijn geweertje leeg kan laten paffen op wat levende doelwitten, dat kan natuurlijk ook.
+Dat is waarom je dingen eens in de zoveel tijd moet schoonmaken. Dat is waarom je af en toe met een huge druk je exterieur schoonspoelt of je voorgevel schoon spoelt. Of je laat het gewoon verotten en geeft dan de duiven de schuld zodat een of andere lokale jager effe lekker zijn geweertje leeg kan laten paffen op wat levende doelwitten. Dat kan natuurlijk ook.
 
 ## de oplossing
 Laten we vooropstellen dat een echte oplossing onmogelijk is zolang er voedsel voorhanden is. Vogels en in dit geval duiven zullen echt niet ergens met een groep blijven hangen als er niet genoeg voedsel is. Over het algemeen zijn grote groepen duiven afhankelijk van mensen voor hun voedsel dus zodra die toestroom stop zullen ook de duiven vertrekken.
