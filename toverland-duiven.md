@@ -4,7 +4,7 @@ Dat afschieten gaat op de lange termijn nooit werken. Uiteindelijk zit daar dood
 
 > We hebben ze geprobeerd te vangen en te verplaatsen en we hebben geprobeerd om het minder aantrekkelijk te maken om op die plek te nestelen. Toch bleven ze terugkomen.
 
-Ik moest wel een klein beetje lachen om deze diervriendelijke knulligheid. Misschien dat ze in Toverland nog niet erg bekend zijn met de eigenaardigheden van de duif maar twee dingen zijn over het algemeen toch wel welbekend:
+Ik moest wel een klein beetje lachen om deze diervriendelijke knulligheid. Misschien dat ze in Toverland nog niet erg bekend zijn met de eigenaardigheden van de duif maar de volgende feiten zijn over het algemeen toch welbekend:
 
 * Het zijn extreem snelle vliegers die lange afstanden kunnen overbruggen in geringe tijd
 * Ze hebben een extreem goed orientatievermogen
