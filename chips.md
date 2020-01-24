@@ -25,3 +25,5 @@ So now we have a process that makes a chip by supplanting multiple layers over e
 Where the whole chip market absolutely shines is its almost religious inistince to keep up with Moore's Law. Any big corp in the market will tell you they are still keeping up but in fact the whole law is so badly formulated and barely applicable anymore that it really doesn't make much sense to invoke it. 
 
 > I would propose we'd just drop the whole thing and focus on usability, manufacturability, energy usage and not IC density for most products.
+
+
