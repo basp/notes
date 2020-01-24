@@ -10,3 +10,18 @@ As humans do, we don't stop there though. Once we have something that works the 
 
 ## How do we print chips?
 So how do we actually make these things? Well, nobody really knows. That's not a lie. Well it might be a slight lie but there's not many people that 100% know how to make chips. A lot of people know how to make parts of a chips but the complete thing? That info is skilfully distributed.
+
+We know a few things though:
+* You'll need a silicon cylinder
+* You'll need a machine to slice that in *very* thin **wafers** (basically just pancaces of glass except it's not glass).
+* Now we need a device that can print on these sheets of glass where the print actually affects where current can flow.
+* Let's use a a combination of chemicals that react when sprayed with some light of a particular wavelength. It will react with the wafer and possibly alter its surface.
+* Perform some cleansing operation that removes the layers that have been exposed to light or not.
+* Repeat
+
+So now we have a process that makes a chip by supplanting multiple layers over eachother. These are all well documented processes in the industry.
+
+## PUshing the Tech
+Where the whole chip market absolutely shines is its almost religious inistince to keep up with Moore's Law. Any big corp in the market will tell you they are still keeping up but in fact the whole law is so badly formulated and barely applicable anymore that it really doesn't make much sense to invoke it. 
+
+> I would propose we'd just drop the whole thing and focus on usability, manufacturability, energy usage and not IC density for most products.
